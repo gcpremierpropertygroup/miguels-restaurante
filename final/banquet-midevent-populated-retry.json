@@ -1,0 +1,40 @@
+{
+  "id": "c7af3b58-b0e4-4e1e-897c-dba2ab440439",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph of a private dining room. Keep the room, tables, chairs, doorway and layout exactly as they are - do not change the architecture. Remove all overlay UI chrome - no profile photo, no username, no timestamp, no close button, no navigation arrows, no watermark text. Replace the bright TV content on the wall with a warm ambient scene, soft abstract warm light. Populate the empty foreground tables with additional seated guests dining and mid-conversation, keep the two guests already walking through as candid background motion. Warm the overall lighting to an inviting golden restaurant glow. Photorealistic documentary event photography, natural candid moment.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/8af8afc70c4241b19f56d73780776b58.png"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:05:00.730572+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/3f05533a90274678bc935407b123696a.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/c7af3b58-b0e4-4e1e-897c-dba2ab440439/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:05:00.693008+00:00",
+  "expires_at": "2026-09-21T04:05:00.693008+00:00",
+  "error": "",
+  "executionTime": 59166.593,
+  "timings": {
+    "inference": 59166.593
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/3f05533a90274678bc935407b123696a.png → 
+final/3f05533a90274678bc935407b123696a.png
+  Saved final/3f05533a90274678bc935407b123696a.png
