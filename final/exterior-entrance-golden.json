@@ -1,0 +1,40 @@
+{
+  "id": "de3be643-3dd9-4e5d-b0ff-3e2f545f2040",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Using this photo as the exact architectural reference for Miguel's Restaurante: same cream/tan stucco facade, same blue standing-seam metal roof and awning, same dark wood-trimmed windows and columns, same black lamp sconces, same blue neon 'MIGUEL'S Restaurante' sign, same second entrance with a copper/orange awning further to the right, same landscaped bushes and sidewalk. Keep every architectural detail and the sign design identical - this is the same real building, just photographed from a different angle. Reshoot as a tight close-up on the main entrance door and the neon sign directly above it, golden hour warm light, shallow depth of field with soft blur on the edges of the frame. Professional editorial restaurant photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/ef2dd316c3164c739d6f68ac04f33cfe.jpg"
+    ],
+    "aspect_ratio": "4:5",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T14:12:27.321750+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/fad58e79d2c54343a5fe7d1ed234619c.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/de3be643-3dd9-4e5d-b0ff-3e2f545f2040/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T14:12:27.266484+00:00",
+  "expires_at": "2026-09-21T14:12:27.266484+00:00",
+  "error": "",
+  "executionTime": 31125.466,
+  "timings": {
+    "inference": 31125.466
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/fad58e79d2c54343a5fe7d1ed234619c.png → 
+final/fad58e79d2c54343a5fe7d1ed234619c.png
+  Saved final/fad58e79d2c54343a5fe7d1ed234619c.png

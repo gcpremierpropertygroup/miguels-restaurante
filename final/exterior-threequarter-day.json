@@ -1,0 +1,40 @@
+{
+  "id": "46c759ab-e06e-4e58-a129-26f5e281d1b2",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Using this photo as the exact architectural reference for Miguel's Restaurante: same cream/tan stucco facade, same blue standing-seam metal roof and awning, same dark wood-trimmed windows and columns, same black lamp sconces, same blue neon 'MIGUEL'S Restaurante' sign, same second entrance with a copper/orange awning further to the right, same landscaped bushes and sidewalk. Keep every architectural detail and the sign design identical - this is the same real building, just photographed from a different angle. Reshoot as a three-quarter angle daytime shot from the parking lot, showing depth and perspective down the length of the storefront toward the second entrance, a few parked cars visible in the foreground for scale, bright sunny day. Professional real estate marketing photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/ef2dd316c3164c739d6f68ac04f33cfe.jpg"
+    ],
+    "aspect_ratio": "3:2",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T14:12:28.356946+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/88beb7dba716455787b2fdbee4095dc1.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/46c759ab-e06e-4e58-a129-26f5e281d1b2/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T14:12:28.306326+00:00",
+  "expires_at": "2026-09-21T14:12:28.306326+00:00",
+  "error": "",
+  "executionTime": 30119.077,
+  "timings": {
+    "inference": 30119.077
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/88beb7dba716455787b2fdbee4095dc1.png → 
+final/88beb7dba716455787b2fdbee4095dc1.png
+  Saved final/88beb7dba716455787b2fdbee4095dc1.png

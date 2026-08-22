@@ -162,16 +162,10 @@
     'visit.hours.call': { en: 'Call for today&rsquo;s hours', es: 'Llama para el horario de hoy' },
     'visit.gallery.night.name': { en: 'Miguel&rsquo;s after dark', es: 'Miguel&rsquo;s de noche' },
     'visit.gallery.night.note': { en: '587 Highway 51 J &mdash; look for the sign.', es: '587 Highway 51 J &mdash; busca el letrero.' },
-    'visit.gallery.guest.name': { en: 'Come as you are', es: 'Ven como est&eacute;s' },
-    'visit.gallery.guest.note': { en: 'Dine-in, family style, no fuss.', es: 'Para comer aqu&iacute;, estilo familiar, sin complicaciones.' },
     'visit.gallery.room.name': { en: 'A full house', es: 'Casa llena' },
     'visit.gallery.room.note': { en: 'A room that fills up most nights.', es: 'Un sal&oacute;n que se llena casi todas las noches.' },
-    'visit.gallery.toast.name': { en: 'Worth the toast', es: 'Digno de un brindis' },
-    'visit.gallery.toast.note': { en: 'Good food, good company.', es: 'Buena comida, buena compa&ntilde;&iacute;a.' },
     'visit.gallery.banquetService.name': { en: 'The private room', es: 'El sal&oacute;n privado' },
     'visit.gallery.banquetService.note': { en: 'Book it for your next celebration.', es: 'Res&eacute;rvalo para tu pr&oacute;xima celebraci&oacute;n.' },
-    'visit.gallery.banquetDinner.name': { en: 'Room for the whole table', es: 'Espacio para toda la mesa' },
-    'visit.gallery.banquetDinner.note': { en: 'Seats a crowd, feels like family.', es: 'Para grupos grandes, como en familia.' }
   };
 
   function currentLang() {
