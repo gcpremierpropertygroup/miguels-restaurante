@@ -1,0 +1,40 @@
+{
+  "id": "65f9660c-4a52-4b78-a8ed-5cfece92fc16",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Keep the chef's face, mustache, kitchen background, headroom above his cap, and both plates of food exactly as they are - do not change the framing or crop. Two fixes: 1) Fix the embroidered text on his chest to correctly read 'Miguel Martinez' on one line and 'Executive Chef' on the line below, clean and legible, matching a real embroidered restaurant chef coat. 2) Straighten his black cap so the brim sits level and symmetrical, not tilted. 3) Raise the camera angle about 15% higher, looking down more steeply toward the two plates so more of the food's surface and plating is visible from above, while keeping the chef's face, cap and shoulders fully in frame with the same headroom. Photorealistic editorial restaurant photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/efbf0abc0fb44ae8ae53afb650b2b64c.png"
+    ],
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:24:37.919085+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/a7353502c49e49f094487656455f9fa7.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/65f9660c-4a52-4b78-a8ed-5cfece92fc16/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:24:37.877131+00:00",
+  "expires_at": "2026-09-21T04:24:37.877131+00:00",
+  "error": "",
+  "executionTime": 66209.34300000001,
+  "timings": {
+    "inference": 66209.34300000001
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/a7353502c49e49f094487656455f9fa7.png → 
+final/a7353502c49e49f094487656455f9fa7.png
+  Saved final/a7353502c49e49f094487656455f9fa7.png

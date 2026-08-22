@@ -1,0 +1,40 @@
+{
+  "id": "45f7e441-fbc3-4ca6-88d4-8ffdbd99ac13",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Keep this restaurant dining room scene exactly as it is - same room, same furniture, same seated guests at both tables, same TV, same lighting. Two changes only: 1) The woman in the floral top and the man in the striped shirt currently walking through the room on the right side are now seated together at the empty black-tablecloth table near the window with plates of food and drinks in front of them, relaxed and mid-conversation like the other guests. 2) The staff members near the counter and register in the background, dressed in black, are now actively serving - one is carrying a tray with plates toward a table, another is refilling a wine glass at a table, clearly working, not standing idle. Everything else in the photo stays identical. Photorealistic documentary event photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/1321dc7613934e2cb2fea395f7cd2bea.png"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:08:53.515755+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/23aaa990a29942d69a4447df9c5cac6b.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/45f7e441-fbc3-4ca6-88d4-8ffdbd99ac13/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:08:53.477556+00:00",
+  "expires_at": "2026-09-21T04:08:53.477556+00:00",
+  "error": "",
+  "executionTime": 72349.756,
+  "timings": {
+    "inference": 72349.756
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/23aaa990a29942d69a4447df9c5cac6b.png → 
+final/23aaa990a29942d69a4447df9c5cac6b.png
+  Saved final/23aaa990a29942d69a4447df9c5cac6b.png

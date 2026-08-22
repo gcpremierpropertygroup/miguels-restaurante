@@ -1,0 +1,40 @@
+{
+  "id": "c4451394-62a0-4669-8a71-18e837dde73d",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Keep the chef's face, mustache, chef coat with Miguel Martinez Executive Chef embroidery, and the kitchen background as they are. Straighten his black cap so it sits evenly and naturally on his head. Reframe the shot so the whole chef fits comfortably in frame with clear headroom above his cap - pull the camera back and down slightly, a natural three-quarter angle from slightly above eye level, not directly overhead, so he isn't pushed to the top edge of the photo. Both plates of food he holds should still be clearly visible in the lower portion of the frame. Style the food to look fresh, glossy and appetizing with vibrant color and a light garnish. Photorealistic editorial restaurant photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/d0872d74d9054ab5b4a7dfc945371510.png"
+    ],
+    "aspect_ratio": "4:5",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:16:07.222024+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/5d1beead6b16440a9665d32cd3b69879.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/c4451394-62a0-4669-8a71-18e837dde73d/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:16:07.168064+00:00",
+  "expires_at": "2026-09-21T04:16:07.168064+00:00",
+  "error": "",
+  "executionTime": 70711.03,
+  "timings": {
+    "inference": 70711.03
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/5d1beead6b16440a9665d32cd3b69879.png → 
+final/5d1beead6b16440a9665d32cd3b69879.png
+  Saved final/5d1beead6b16440a9665d32cd3b69879.png

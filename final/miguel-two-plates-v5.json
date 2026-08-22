@@ -1,0 +1,40 @@
+{
+  "id": "891f48c9-e691-4b6d-9b8b-9a1814edded6",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Extend this photo upward by adding more of the kitchen ceiling, exhaust hood, and overhead light fixture above the chef's head, matching the existing kitchen exactly in style and lighting. The chef, his cap, his face, his chef coat, and both plates of food must stay exactly the same size and exactly where they currently are in the lower portion of the frame - do not shrink, move, or resize him. Only add new ceiling content in the newly extended space above his cap so there is visible empty headroom between the top of his cap and the top edge of the image.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/d0872d74d9054ab5b4a7dfc945371510.png"
+    ],
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:20:38.798794+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/3067e21f75c947fa95a1471a5923f14a.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/891f48c9-e691-4b6d-9b8b-9a1814edded6/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:20:38.759198+00:00",
+  "expires_at": "2026-09-21T04:20:38.759198+00:00",
+  "error": "",
+  "executionTime": 67021.137,
+  "timings": {
+    "inference": 67021.137
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/3067e21f75c947fa95a1471a5923f14a.png → 
+final/3067e21f75c947fa95a1471a5923f14a.png
+  Saved final/3067e21f75c947fa95a1471a5923f14a.png
