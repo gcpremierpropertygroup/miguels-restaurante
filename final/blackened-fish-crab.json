@@ -1,0 +1,40 @@
+{
+  "id": "8476dad4-d0b8-4f24-b9ff-a8e1e6142e1f",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the blackened fish fillet topped with lump crabmeat cream sauce, alongside the loaded baked potato, onto an elegant modern white plate. Keep the blackening spice crust on the fish clearly visible. Arrange the potato neatly beside the fish with a fresh lemon wedge. Tidy the cream sauce into a deliberate pool rather than a spill.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/46d7666d5d68475aa954e20f096677ec.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:32:16.484533+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/88f45d8bda104e51a742625724475695.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/8476dad4-d0b8-4f24-b9ff-a8e1e6142e1f/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:32:16.445064+00:00",
+  "expires_at": "2026-09-19T12:32:16.445064+00:00",
+  "error": "",
+  "executionTime": 38362.992,
+  "timings": {
+    "inference": 38362.992
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/88f45d8bda104e51a742625724475695.png → 
+final/88f45d8bda104e51a742625724475695.png
+  Saved final/88f45d8bda104e51a742625724475695.png

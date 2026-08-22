@@ -1,0 +1,40 @@
+{
+  "id": "4dbb9610-9873-4a34-a54c-c2cdc7fda06f",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the bone-in tomahawk ribeye with sauteed mushrooms and bearnaise sauce onto an elegant modern white plate: steak angled to show the full long bone, mushrooms in a tidy cluster, bearnaise in a small clean ramekin or neat quenelle rather than a metal cup. Keep the steak's char and doneness exactly as they are.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/aa2a31c471624bf68938a1f867dc0c13.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:30:55.919683+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/1960f57b5cef4bd2987dbee7a371e79a.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/4dbb9610-9873-4a34-a54c-c2cdc7fda06f/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:30:55.870509+00:00",
+  "expires_at": "2026-09-19T12:30:55.870509+00:00",
+  "error": "",
+  "executionTime": 32230.407,
+  "timings": {
+    "inference": 32230.407
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/1960f57b5cef4bd2987dbee7a371e79a.png → 
+final/1960f57b5cef4bd2987dbee7a371e79a.png
+  Saved final/1960f57b5cef4bd2987dbee7a371e79a.png

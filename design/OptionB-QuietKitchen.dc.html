@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #FAF7F0; font-family: 'Work Sans', system-ui, sans-serif; }
+    a { color: #1A1712; text-decoration: none; }
+  </style>
+</helmet>
+
+<div style="width:1200px; height:800px; position:relative; overflow:hidden;">
+  <img src="chef.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:grayscale(0.15);">
+  <div style="position:absolute; inset:0; background:linear-gradient(0deg, rgba(20,17,12,0.72) 0%, rgba(20,17,12,0.05) 45%, rgba(20,17,12,0.28) 100%);"></div>
+
+  <div style="position:absolute; top:0; left:0; right:0; display:flex; justify-content:space-between; padding:40px 56px;">
+    <span style="font-size:12px; letter-spacing:0.12em; color:#FAF7F0; font-weight:500;">MIGUEL'S RESTAURANTE</span>
+    <span style="font-size:12px; letter-spacing:0.08em; color:#FAF7F0; font-weight:500;">MENU &nbsp;&nbsp; VISIT</span>
+  </div>
+
+  <div style="position:absolute; bottom:64px; left:56px; right:56px;">
+    <h1 style="font-family:'Cormorant Garamond',serif; font-weight:600; font-style:italic; font-size:52px; color:#FAF7F0; margin:0 0 16px; max-width:520px; line-height:1.15;">
+      One family. One kitchen. Nothing else to prove.
+    </h1>
+    <a href="#" style="font-size:13px; color:#E8DFC9; font-weight:500; border-bottom:1px solid rgba(232,223,201,0.5); padding-bottom:3px;">Meet Chef Miguel</a>
+  </div>
+</div>
+
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "id": "4c31b6d3-48bf-455b-8eac-b5773d74bbde",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the cornmeal-fried catfish fillets with hushpuppies and cornbread onto an elegant modern white plate, with the collard greens and baked beans in small clean white ramekins arranged behind. Keep the golden fried crust texture crisp and appetizing. Southern comfort food styled with care.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/d41186bab32a4cbc86a4ca6962fe0a5f.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:33:15.746720+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/094f6de4c81d41f788fb2d7fac439b9f.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/4c31b6d3-48bf-455b-8eac-b5773d74bbde/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:33:15.655752+00:00",
+  "expires_at": "2026-09-19T12:33:15.655752+00:00",
+  "error": "",
+  "executionTime": 38925.582,
+  "timings": {
+    "inference": 38925.582
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/094f6de4c81d41f788fb2d7fac439b9f.png → 
+final/094f6de4c81d41f788fb2d7fac439b9f.png
+  Saved final/094f6de4c81d41f788fb2d7fac439b9f.png

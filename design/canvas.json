@@ -1,0 +1,13 @@
+{
+  "artboards": [
+    { "file": "OptionA-NeonSign.dc.html", "title": "A — Neon Sign", "x": 0, "y": 0, "w": 1200, "h": 800 },
+    { "file": "OptionB-QuietKitchen.dc.html", "title": "B — Quiet Kitchen", "x": 1280, "y": 0, "w": 1200, "h": 800 },
+    { "file": "OptionC-FamilyTable.dc.html", "title": "C — Family Table", "x": 2560, "y": 0, "w": 1200, "h": 800 }
+  ],
+  "annotations": [
+    { "id": "note-a", "x": 0, "y": -130, "w": 1200, "text": "A — Neon Sign: leans hard into their actual branding — the cyan neon color, the navy \"Restaurante\" script pill, bold marquee-style type. Loud and proud, closest to the real storefront. Tradeoff: boldest color use, least \"quiet.\"" },
+    { "id": "note-b", "x": 1280, "y": -130, "w": 1200, "text": "B — Quiet Kitchen: minimal, one full-bleed photo of Chef Miguel, almost no color, restrained italic serif headline. Most confident/understated option. Tradeoff: doesn't show the food or the real logo colors up front." },
+    { "id": "note-c", "x": 2560, "y": -130, "w": 1200, "text": "C — Family Table: warm scrapbook collage of overlapping photos, handwritten accent, terracotta/cream tones. Most \"home-cooked\" feeling. Tradeoff: busiest layout, least formal." }
+  ],
+  "launch": { "view": "canvas" }
+}

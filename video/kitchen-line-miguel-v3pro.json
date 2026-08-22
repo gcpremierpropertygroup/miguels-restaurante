@@ -1,0 +1,39 @@
+{
+  "id": "4b599270-7159-45b2-bddd-6aaf49a6dd28",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Camera holds steady with a very subtle handheld sway. Steam and smoke drift upward from the grill, flames flicker and lick at the steaks. The chef tends the steaks with tongs, small natural hand movement, occasionally glancing up toward camera with a warm, confident expression. Keep his face, features, and expression consistent throughout - do not let his identity drift. Kitchen ambience, warm light flickers slightly.",
+    "image_url": "https://cdn.muapi.ai/outputs/generated/ba05fcff1c154cd1935ede62b8bc8143.png",
+    "last_image": null,
+    "duration": 5,
+    "generate_audio": true,
+    "submit_attempted_at": "2026-08-22T00:48:14.565887+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/3d71cdef68b44498a452ec0ce5c98062.mp4"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/4b599270-7159-45b2-bddd-6aaf49a6dd28/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T00:48:14.512877+00:00",
+  "expires_at": "2026-09-21T00:48:14.512877+00:00",
+  "error": "",
+  "executionTime": 217069.524,
+  "timings": {
+    "inference": 217069.524
+  },
+  "cost": {
+    "amount_usd": 0.8,
+    "amount_credits": 63,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/3d71cdef68b44498a452ec0ce5c98062.mp4 → 
+video/3d71cdef68b44498a452ec0ce5c98062.mp4
+  Saved video/3d71cdef68b44498a452ec0ce5c98062.mp4

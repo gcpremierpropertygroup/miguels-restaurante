@@ -1,0 +1,40 @@
+{
+  "id": "b991af11-044e-403a-a55e-dc55d906986a",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph of a private dining room, mid-event. Keep the room, furniture, wood hutch bar, long table with black tablecloth, chairs, flowers, wall-mounted TV and door exactly as they are - do not change the architecture or furniture layout. Remove all overlay UI chrome - no profile photo, no username, no timestamp, no close button, no navigation arrows, no thumbnail strip, no watermark text. Populate the room with a warm group of 8-10 diverse adult guests seated around the long table, mid-conversation and mid-meal, plates and glasses in front of them, candid natural body language, some laughing, some mid-bite. Turn the wall-mounted TV on to a warm ambient scene (soft abstract light, not distracting content). Warm the lighting throughout to an inviting golden restaurant glow. Photorealistic documentary event photography, natural candid moment.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/4005de1904e04fb4beb3688ab8878b74.png"
+    ],
+    "aspect_ratio": "4:3",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:02:53.825240+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/b1f781566e0d422896c94cda25d48682.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/b991af11-044e-403a-a55e-dc55d906986a/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:02:53.764699+00:00",
+  "expires_at": "2026-09-21T04:02:53.764699+00:00",
+  "error": "",
+  "executionTime": 58507.805,
+  "timings": {
+    "inference": 58507.805
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/b1f781566e0d422896c94cda25d48682.png → 
+final/b1f781566e0d422896c94cda25d48682.png
+  Saved final/b1f781566e0d422896c94cda25d48682.png

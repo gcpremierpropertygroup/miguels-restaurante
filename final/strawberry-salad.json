@@ -1,0 +1,40 @@
+{
+  "id": "3fd1d217-2fad-4c94-b2ec-aad39eb49130",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the strawberry spinach salad with toasted almonds onto an elegant modern white bowl or plate with deliberate composition: strawberries fanned attractively, greens lifted with volume rather than flat, almonds scattered evenly. Put the vinaigrette in a small clean white ramekin instead of a metal cup. Fresh and vibrant.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/abf1996b9e474d6fbd475eaec5e2468a.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:37:13.937543+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/de75b3fd23744715a2483213a04baa34.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/3fd1d217-2fad-4c94-b2ec-aad39eb49130/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:37:13.886920+00:00",
+  "expires_at": "2026-09-19T12:37:13.886920+00:00",
+  "error": "",
+  "executionTime": 36553.035,
+  "timings": {
+    "inference": 36553.035
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/de75b3fd23744715a2483213a04baa34.png → 
+final/de75b3fd23744715a2483213a04baa34.png
+  Saved final/de75b3fd23744715a2483213a04baa34.png

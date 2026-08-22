@@ -1,0 +1,40 @@
+{
+  "id": "7f7a2382-5257-41e8-a4b3-857534228a11",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Keep the navy Miguel's Restaurante MR menu standing behind the plate exactly as it is, fully legible and unaltered - do not change the logo, text, or menu design in any way. Improve only the lighting and background: warm restaurant lighting, blur out the kitchen clutter behind. Refine the burger and hand-cut fries plating slightly - burger centered, fries stacked tidily.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/7ece98510f6e4bcd9c24dccbfafaa268.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:36:29.402464+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/c328a2d2827a4091a97e06f215ab1d2d.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/7f7a2382-5257-41e8-a4b3-857534228a11/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:36:29.345823+00:00",
+  "expires_at": "2026-09-19T12:36:29.345823+00:00",
+  "error": "",
+  "executionTime": 31735.467,
+  "timings": {
+    "inference": 31735.467
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/c328a2d2827a4091a97e06f215ab1d2d.png → 
+final/c328a2d2827a4091a97e06f215ab1d2d.png
+  Saved final/c328a2d2827a4091a97e06f215ab1d2d.png

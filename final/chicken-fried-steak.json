@@ -1,0 +1,40 @@
+{
+  "id": "972855ff-6b30-4adb-adfd-8592d3b58e38",
+  "model": "nano-banana-pro-edit",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the chicken-fried steak with cream gravy onto an elegant modern white plate, with the lima beans and hashbrown casserole in small clean white ramekins beside it. Keep the crispy breaded edges of the steak visible rather than fully drowned in gravy - gravy poured deliberately over the center only. Southern lunch plate styled with care.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/35a09ed3c725482a8f1628d4017925f2.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:35:35.955545+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/6df43fe2438a4577ba3f7ca2cc56d13b.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/972855ff-6b30-4adb-adfd-8592d3b58e38/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:35:35.916644+00:00",
+  "expires_at": "2026-09-19T12:35:35.916644+00:00",
+  "error": "",
+  "executionTime": 43284.491,
+  "timings": {
+    "inference": 43284.491
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/6df43fe2438a4577ba3f7ca2cc56d13b.png → 
+final/6df43fe2438a4577ba3f7ca2cc56d13b.png
+  Saved final/6df43fe2438a4577ba3f7ca2cc56d13b.png

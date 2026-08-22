@@ -1,0 +1,14 @@
+# Miguel's Restaurante — deploy config.
+# The deployable artifact is site/ only. Everything else at the repo root is
+# working material for the photo pipeline (source photos, restyle outputs,
+# design drafts, assets-source/) plus .env, which holds MUAPI_API_KEY — none of
+# it ships. Without this, Netlify publishes the repo root and leaks all of it.
+#
+# The full-resolution masters used to sit at site/assets/_source/, inside this
+# publish dir, which made them public (a 7.8 MB hero clip was downloadable) and
+# added 45 MB to every upload. They now live in assets-source/ at the repo root,
+# so the publish boundary alone keeps them out — no redirect rule required.
+
+[build]
+  publish = "site"
+  command = ""

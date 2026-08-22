@@ -1,0 +1,40 @@
+{
+  "id": "b49d2839-c857-4ab2-94d8-e77f11958761",
+  "model": "nano-banana-pro-edit",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the char-grilled steak topped with lump crabmeat and hollandaise onto an elegant modern white plate. Keep the crabmeat visibly lump and the hollandaise glossy, but tighten it into a deliberate mound on the steak instead of a spill, with only a small controlled sauce accent on the plate. Keep the steak's char intact.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/1f8f717eba084068b81ef33b3fe675dd.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:31:37.174334+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/dace4744d2bd4fa9bb63e75584302de3.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/b49d2839-c857-4ab2-94d8-e77f11958761/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:31:37.134700+00:00",
+  "expires_at": "2026-09-19T12:31:37.134700+00:00",
+  "error": "",
+  "executionTime": 33394.513000000006,
+  "timings": {
+    "inference": 33394.513000000006
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/dace4744d2bd4fa9bb63e75584302de3.png → 
+final/dace4744d2bd4fa9bb63e75584302de3.png
+  Saved final/dace4744d2bd4fa9bb63e75584302de3.png

@@ -1,0 +1,40 @@
+{
+  "id": "cbed51b7-99a4-467c-a702-012f1a7c651c",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the strawberry-topped cheesecake slice onto an elegant modern white dessert plate, set on a table rather than held in a hand - remove the hand entirely. Remove the chocolate script writing from the plate rim. Keep the cheesecake's graham crust and strawberry compote topping exactly as they are, with a deliberate compote drizzle.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/7ab84c66eba84005b29d06d75df95aed.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:37:58.227724+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/90e37b483cd64cba8fde9b443e2e0d71.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/cbed51b7-99a4-467c-a702-012f1a7c651c/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:37:58.189812+00:00",
+  "expires_at": "2026-09-19T12:37:58.189812+00:00",
+  "error": "",
+  "executionTime": 31804.02,
+  "timings": {
+    "inference": 31804.02
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/90e37b483cd64cba8fde9b443e2e0d71.png → 
+final/90e37b483cd64cba8fde9b443e2e0d71.png
+  Saved final/90e37b483cd64cba8fde9b443e2e0d71.png

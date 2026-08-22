@@ -1,0 +1,41 @@
+{
+  "id": "fe1315c1-57f0-4f21-9f18-535cfacbaa97",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Using the FIRST image as the scene and the SECOND image as the identity reference: replace the cook at the grill with the man from the second image. Match his face exactly - same middle-aged Latino man, salt-and-pepper mustache, receding hairline with short graying black hair, same warm eyes, same round face shape and skin tone, same age (50s). He wears a black chef coat, a black MR-logo baseball cap instead of the skullcap, and the same tan canvas work apron tied at the waist as in the first image, worn over the chef coat and clearly visible, stained from service. He is looking down toward the steaks on the grill, head turned in profile toward the flames, focused on cooking. Keep the entire kitchen scene, grill flames, smoke, steaks, tongs, lighting, camera angle and composition exactly as in the first image. Photorealistic documentary kitchen photography.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/b96b2c36f85f4d17a19ce24dad894f78.png",
+      "https://cdn.muapi.ai/outputs/generated/56437a4eefa2456c809edde2eed42427.png"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T00:24:32.813947+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/5caac8c444a444a5b2bbab7440eb0ada.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/fe1315c1-57f0-4f21-9f18-535cfacbaa97/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T00:24:32.762644+00:00",
+  "expires_at": "2026-09-21T00:24:32.762644+00:00",
+  "error": "",
+  "executionTime": 43152.388,
+  "timings": {
+    "inference": 43152.388
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/5caac8c444a444a5b2bbab7440eb0ada.png → 
+final/5caac8c444a444a5b2bbab7440eb0ada.png
+  Saved final/5caac8c444a444a5b2bbab7440eb0ada.png

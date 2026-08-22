@@ -1,0 +1,40 @@
+{
+  "id": "31e3011e-4e0b-4b5d-ab14-e712ef141e97",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the grilled chicken nachos onto an elegant modern white platter with deliberate arrangement: tortilla chips fanned, grilled chicken and queso distributed evenly, with distinct tidy mounds of guacamole, black beans, pico de gallo, and pickled jalapenos. Keep every topping recognizable and fresh-looking.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/43b69c68bca74c31af0c1173f41e8b06.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:34:43.501080+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/48dd8ddb1647464fbea710165a4454a1.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/31e3011e-4e0b-4b5d-ab14-e712ef141e97/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:34:43.460989+00:00",
+  "expires_at": "2026-09-19T12:34:43.460989+00:00",
+  "error": "",
+  "executionTime": 37990.96200000001,
+  "timings": {
+    "inference": 37990.96200000001
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/48dd8ddb1647464fbea710165a4454a1.png → 
+final/48dd8ddb1647464fbea710165a4454a1.png
+  Saved final/48dd8ddb1647464fbea710165a4454a1.png

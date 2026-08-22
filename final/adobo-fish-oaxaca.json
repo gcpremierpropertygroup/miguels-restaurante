@@ -1,0 +1,40 @@
+{
+  "id": "5387d3bb-9273-453b-8e1c-25060b08f976",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Softly blurred warm dark restaurant backdrop with ambient bokeh lighting, shallow depth of field, dramatic side lighting, high-end editorial food photography, 85mm lens. Remove all background clutter, utensils, and counter surfaces. Replate the red chile adobo-sauced fish fillet with mixed greens and orange slices onto an elegant modern white plate. Keep the deep red-orange chile sauce vivid and glossy. Arrange the greens as a tidy nest and fan the orange slices deliberately. Authentic Oaxacan character.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/297a8a8f56e4490abbcb65773ed26f49.jpg"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "1k",
+    "submit_attempted_at": "2026-08-20T12:33:59.805102+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/54e2aca72b9140cea7de35f452cf2457.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/5387d3bb-9273-453b-8e1c-25060b08f976/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-20T12:33:59.766381+00:00",
+  "expires_at": "2026-09-19T12:33:59.766381+00:00",
+  "error": "",
+  "executionTime": 35333.127,
+  "timings": {
+    "inference": 35333.127
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/54e2aca72b9140cea7de35f452cf2457.png → 
+final/54e2aca72b9140cea7de35f452cf2457.png
+  Saved final/54e2aca72b9140cea7de35f452cf2457.png

@@ -1,0 +1,40 @@
+{
+  "id": "b7d2ce68-4fb2-4b8b-b448-6aa7db89127a",
+  "model": "unknown",
+  "inputs": {
+    "prompt": "Reimagine this as an upscale restaurant marketing photograph. Keep the chef exactly as he is - same face, mustache, cap, black chef coat with Miguel Martinez Executive Chef embroidery, same two plates of food in his hands, same warm genuine smile, same pose. Clean up and soften the busy back-of-house kitchen behind him: reduce clutter on the shelves, tidy the prep station, warm and dim the harsh overhead fluorescent lighting into a moodier ambient restaurant glow with soft bokeh. Remove the visible cables and stray equipment. Keep the blank marble counter in the foreground but warm its lighting to match. Photorealistic editorial food photography, 85mm lens, shallow depth of field on the background.",
+    "images_list": [
+      "https://cdn.muapi.ai/outputs/generated/5dc1396c25334504bb9f3d53bb4f411e.png"
+    ],
+    "aspect_ratio": "4:5",
+    "resolution": "2k",
+    "submit_attempted_at": "2026-08-22T04:02:53.973955+00:00"
+  },
+  "outputs": [
+    "https://cdn.muapi.ai/outputs/generated/13ce35295b714c589607366dd0ed6ae9.png"
+  ],
+  "urls": {
+    "get": "https://api.muapi.ai/api/v1/predictions/b7d2ce68-4fb2-4b8b-b448-6aa7db89127a/result"
+  },
+  "has_nsfw_contents": [
+    false
+  ],
+  "status": "completed",
+  "created_at": "2026-08-22T04:02:53.884891+00:00",
+  "expires_at": "2026-09-21T04:02:53.884891+00:00",
+  "error": "",
+  "executionTime": 30256.245,
+  "timings": {
+    "inference": 30256.245
+  },
+  "cost": {
+    "amount_usd": 0.12,
+    "amount_credits": 9,
+    "bonus_credits_used": 0,
+    "refunded": false
+  }
+}
+Downloading 
+https://cdn.muapi.ai/outputs/generated/13ce35295b714c589607366dd0ed6ae9.png → 
+final/13ce35295b714c589607366dd0ed6ae9.png
+  Saved final/13ce35295b714c589607366dd0ed6ae9.png

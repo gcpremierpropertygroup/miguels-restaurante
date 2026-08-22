@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Dancing+Script:wght@600&family=Work+Sans:wght@400;500;600&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #F6F0E2; font-family: 'Work Sans', system-ui, sans-serif; }
+    a { color: #0F2A47; text-decoration: none; }
+  </style>
+</helmet>
+
+<div style="width:1200px; height:800px; position:relative; overflow:hidden; display:flex;">
+
+  <div style="width:52%; padding:56px 40px 40px 56px; display:flex; flex-direction:column; justify-content:space-between;">
+    <div style="display:flex; align-items:center; justify-content:space-between;">
+      <span style="font-size:13px; font-weight:600; letter-spacing:0.1em; color:#0F2A47;">MIGUEL'S RESTAURANTE</span>
+      <div style="display:flex; gap:22px; font-size:12px; font-weight:500;">
+        <a href="#">MENU</a><a href="#">VISIT</a>
+      </div>
+    </div>
+
+    <div>
+      <div style="display:inline-block; padding:6px 16px; background:#0F2A47; border-radius:999px; margin-bottom:22px;">
+        <span style="font-family:'Dancing Script',cursive; font-size:20px; color:#5FD4EC; font-weight:600;">Restaurante</span>
+      </div>
+      <h1 style="font-family:'Yeseva One',serif; font-weight:400; font-size:80px; line-height:0.95; color:#0F2A47; margin:0 0 24px;">MIGUEL'S</h1>
+      <p style="font-size:15px; color:#3A3222; line-height:1.6; max-width:380px; margin:0 0 28px; font-weight:500;">
+        Steak &middot; Seafood &middot; Authentic Oaxaca &middot; Southern Lunch Specials
+      </p>
+      <div style="display:flex; gap:28px;">
+        <a href="#" style="font-size:14px; font-weight:600; border-bottom:2px solid #5FD4EC; padding-bottom:3px;">View the Menu</a>
+      </div>
+    </div>
+
+    <div style="height:3px; width:64px; background:#5FD4EC;"></div>
+  </div>
+
+  <div style="width:48%; position:relative;">
+    <img src="hero.jpg" alt="" style="width:100%; height:100%; object-fit:cover;">
+    <div style="position:absolute; inset:0; box-shadow:inset 12px 0 24px -12px rgba(0,0,0,0.25);"></div>
+  </div>
+
+</div>
+
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
