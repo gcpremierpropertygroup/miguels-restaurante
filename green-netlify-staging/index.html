@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Miguel's Restaurante | Steak, Seafood, Oaxaca and Southern Cuisine</title>
+<meta name="description" content="Family-owned restaurant in Ridgeland, Mississippi serving steak, seafood, Oaxaca dishes and Southern lunch specials.">
+<meta name="theme-color" content="#1f3026">
+<link rel="canonical" href="https://miguelsrestaurante.com/">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Miguel's Restaurante">
+<meta property="og:description" content="Steak, seafood, Oaxaca and Southern cuisine from one kitchen in Ridgeland, Mississippi.">
+<meta property="og:image" content="assets/photos/miguel-at-the-pass.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/photos/logo-mr-v2.webp">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&amp;display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#faf6ee}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:100;padding:12px 18px;background:#c6a15b;color:#16241c;font:500 12px/1 'DM Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.skip-link:focus{left:12px;top:12px}
+:focus-visible{outline:2px solid #c6a15b;outline-offset:3px}
+[style-hover]{transition:color .2s ease,background-color .2s ease,border-color .2s ease}
+#mastbar::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent 8%,rgba(52,169,255,.85) 50%,transparent 92%);box-shadow:0 0 8px rgba(52,169,255,.35);pointer-events:none}
+#dishrow figure{position:relative;overflow:hidden;background:#1f3026!important;border:0!important}
+#dishrow figure img{height:100%!important;min-height:220px;transition:transform .5s ease}
+#dishrow figure:nth-child(5) img{object-position:center 82%}
+#dishrow figure:hover img{transform:scale(1.025)}
+#dishrow figcaption{position:absolute;left:0;right:0;bottom:0;padding:52px 18px 18px!important;background:linear-gradient(180deg,transparent,rgba(13,22,17,.9));z-index:1}
+#dishrow figcaption span:first-child{color:#d9b46c!important}
+#dishrow figcaption span:last-child{color:#fffaf0!important;font-size:20px!important}
+#specialrow>div:last-child{transform:translateY(26px) rotate(.65deg);box-shadow:0 18px 42px rgba(42,38,32,.1)}
+.menu-panel{position:relative;overflow:hidden;background:#1f3026;color:#f4efe2;padding:clamp(30px,4vw,54px);box-shadow:0 24px 50px rgba(22,36,28,.14)}
+.menu-panel::after{content:"MR";position:absolute;right:-18px;bottom:-58px;font:400 clamp(150px,20vw,290px)/1 'Instrument Serif',serif;color:rgba(244,239,226,.025);pointer-events:none}
+.menu-panel__head{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,36ch);gap:30px;align-items:end;padding-bottom:28px;border-bottom:1px solid rgba(198,161,91,.3)}
+.menu-panel__eyebrow{display:block;margin-bottom:12px;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#c6a15b}
+.menu-panel__title{margin:0;font:400 clamp(34px,4vw,56px)/1 'Instrument Serif',serif;letter-spacing:-.015em;color:#f4efe2}
+.menu-panel__intro{margin:0;font:300 14px/1.75 'DM Sans',sans-serif;color:rgba(244,239,226,.68)}
+.menu-panel__grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:30px 0}
+.menu-category{padding-right:22px;border-right:1px solid rgba(198,161,91,.18)}
+.menu-category:last-child{padding-right:0;border-right:0}
+.menu-category__name{display:block;margin-bottom:17px;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c6a15b}
+.menu-category ul{list-style:none;margin:0;padding:0}
+.menu-category li{font:400 19px/1.25 'Instrument Serif',serif;color:#f4efe2}
+.menu-category li+li{margin-top:10px}
+.menu-extras{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(198,161,91,.3);border-bottom:1px solid rgba(198,161,91,.3)}
+.menu-extra{padding:18px 20px}
+.menu-extra:first-child{padding-left:0}
+.menu-extra+ .menu-extra{border-left:1px solid rgba(198,161,91,.18)}
+.menu-extra__label{display:block;margin-bottom:7px;font:500 8.5px/1 'DM Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(198,161,91,.72)}
+.menu-extra__item{font:400 17px/1.25 'Instrument Serif',serif;color:#f4efe2}
+.menu-panel__callout{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:26px}
+.menu-panel__callout p{margin:0;font:300 13px/1.6 'DM Sans',sans-serif;color:rgba(244,239,226,.6)}
+.menu-panel__callout a{display:inline-flex;align-items:center;justify-content:center;flex:none;padding:14px 20px;background:#c6a15b;color:#16241c;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.today-lunch-card{display:grid;grid-template-columns:minmax(170px,.7fr) minmax(0,2fr) auto;gap:28px;align-items:center;padding:28px 30px;background:#1f3026;color:#f4efe2;box-shadow:0 18px 38px rgba(22,36,28,.12)}
+.today-lunch-card__day{display:flex;flex-direction:column;gap:8px}
+.today-lunch-card__label{font:500 9px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c6a15b}
+.today-lunch-card__name{font:400 clamp(28px,3vw,40px)/1 'Instrument Serif',serif;color:#f4efe2}
+.today-lunch-card__items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-left:1px solid rgba(198,161,91,.28)}
+.today-lunch-card__item{padding:8px 22px;font:400 clamp(18px,2vw,24px)/1.2 'Instrument Serif',serif;color:#f4efe2;border-right:1px solid rgba(198,161,91,.18)}
+.today-lunch-card__price{font:500 10px/1.5 'DM Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#c6a15b;text-align:right;white-space:nowrap}
+.week-details{margin-top:14px;border:1px solid rgba(42,38,32,.14);background:rgba(255,250,240,.48)}
+.week-details summary{padding:15px 18px;cursor:pointer;list-style:none;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6b6357}
+.week-details summary::-webkit-details-marker{display:none}
+.week-details summary::after{content:"+";float:right;font-size:16px;line-height:8px;color:#8a6b2e}
+.week-details[open] summary::after{content:"−"}
+#weekrow{background:#fffaf0;border-top:1px solid rgba(42,38,32,.12)}
+#weekrow .daycell{opacity:.62}
+#weekrow .daycell.is-today{opacity:1;background:rgba(138,107,46,.08)}
+.chef-note{display:flex;align-items:center;gap:15px;padding:18px 0;border-top:1px solid rgba(198,161,91,.32);border-bottom:1px solid rgba(198,161,91,.32)}
+.chef-note::before{content:"";width:34px;height:2px;background:#34a9ff;box-shadow:0 0 8px rgba(52,169,255,.55);flex:none}
+.reservation-callout{padding:26px 0;border-top:1px solid rgba(198,161,91,.34);border-bottom:1px solid rgba(198,161,91,.34)}
+.reservation-callout__phone{display:block;font:400 clamp(27px,3vw,42px)/1 'Instrument Serif',serif;color:#f4efe2;margin-bottom:18px}
+.reservation-callout__actions{display:flex;flex-wrap:wrap;gap:10px}
+.reservation-callout__actions a{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.reservation-callout__actions a:first-child{background:#c6a15b;color:#16241c}
+.reservation-callout__actions a:last-child{border:1px solid rgba(198,161,91,.55);color:#c6a15b}
+.neon-sign-frame{outline:1px solid rgba(52,169,255,.6);outline-offset:8px;box-shadow:0 0 22px rgba(52,169,255,.15)}
+@media(min-width:1081px){
+  #dishrow{grid-template-columns:repeat(12,1fr)!important;grid-template-rows:210px 210px 260px;gap:12px!important}
+  #dishrow figure:nth-child(1){grid-column:1/6;grid-row:1/3}
+  #dishrow figure:nth-child(2){grid-column:6/9;grid-row:1}
+  #dishrow figure:nth-child(3){grid-column:9/13;grid-row:1}
+  #dishrow figure:nth-child(4){grid-column:6/10;grid-row:2}
+  #dishrow figure:nth-child(5){grid-column:10/13;grid-row:2}
+  #dishrow figure:nth-child(6){grid-column:3/11;grid-row:3}
+  #kitchenrow{grid-template-columns:1.15fr .8fr 1.3fr!important;padding-bottom:30px}
+  #kitchenrow img:nth-child(2){transform:translateY(30px);position:relative;z-index:1}
+}
+@media(max-width:720px){body{padding-bottom:64px}.desktop-phone{display:none!important}}
+.mobile-callbar{display:none}
+@media(max-width:720px){.mobile-callbar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:1fr 1fr;padding-bottom:env(safe-area-inset-bottom);background:#16241c;border-top:1px solid rgba(198,161,91,.35)}.mobile-callbar a{min-height:56px;display:flex;align-items:center;justify-content:center;font:500 11px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#f4efe2}.mobile-callbar a:first-child{background:#c6a15b;color:#16241c}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+a{color:#8a6b2e;text-decoration:none}
+a:hover{color:#c6a15b}
+img{display:block}
+section[id]{scroll-margin-top:96px}
+button,input{font-family:'DM Sans',sans-serif}
+button{cursor:pointer}
+input::placeholder{color:rgba(42,38,32,.42)}
+@media(min-width:861px){.daycell:nth-child(n+2){border-left:1px solid rgba(42,38,32,.14)}}
+@media(min-width:721px) and (max-width:860px){
+  .daycell:nth-child(2n){border-left:1px solid rgba(42,38,32,.14)}
+  .daycell:nth-child(n+3){border-top:1px solid rgba(42,38,32,.14)}
+}
+@media(min-width:721px){
+  #masthead{flex-wrap:nowrap !important}
+}
+@media(max-width:1180px) and (min-width:721px){
+  #masthead nav{gap:16px !important}
+  #masthead nav a:not([href^="tel"]){font-size:13.5px !important;letter-spacing:.11em !important}
+  #masthead nav a[href^="tel"]{padding:12px 18px !important;font-size:12.5px !important;letter-spacing:.14em !important}
+  #masthead .navlink-extra{display:none !important}
+}
+@media(max-width:980px) and (min-width:721px){
+  #masthead nav{gap:14px !important}
+  #masthead nav a:not([href^="tel"]){font-size:12.5px !important}
+  #masthead nav a[href="#top"]{display:none !important}
+  #masthead nav span[style*="border-left"]{padding:0 2px 0 10px !important;margin-left:3px !important}
+  #masthead nav a[href^="tel"]{padding:11px 15px !important;font-size:12.5px !important}
+}
+@media(max-width:1080px){
+  #herogrid{grid-template-columns:1fr !important}
+  #heroimg{height:clamp(420px,66vw,560px) !important;min-height:0 !important}
+  #dishrow{grid-template-columns:repeat(3,1fr) !important}
+  #specialrow{grid-template-columns:1fr !important}
+  #menuboard{grid-template-columns:1fr 1fr !important}
+  .menu-category:nth-child(2){border-right:0}
+  .menu-category:nth-child(n+3){padding-top:24px;border-top:1px solid rgba(198,161,91,.18)}
+  #chefgrid{grid-template-columns:1fr !important;gap:34px !important}
+  #reserverow{grid-template-columns:1fr !important;gap:36px !important}
+  #kitchenrow{grid-template-columns:1fr 1fr !important}
+  #kitchenrow img:nth-child(3){display:none !important}
+}
+@media(max-width:860px){
+  #weekrow{grid-template-columns:1fr 1fr !important}
+  #footerrow{grid-template-columns:1fr 1fr !important;gap:34px !important}
+}
+@media(max-width:720px){
+  .wrap{padding-left:22px !important;padding-right:22px !important}
+  section[id]{scroll-margin-top:78px}
+  #masthead{flex-direction:row !important;align-items:center !important;gap:8px;padding:10px 12px!important}
+  #masthead>a{gap:9px!important}
+  #masthead>a>img{width:40px!important}
+  #masthead>a>span>span:first-child{font-size:18px!important}
+  #masthead>a>span>span:last-child{display:none!important}
+  #masthead nav{margin-left:auto;flex-wrap:nowrap;gap:8px !important}
+  #masthead nav>a:not([href="#menu"]):not([href="#visit"]){display:none!important}
+  #masthead nav a{font-size:11px!important;letter-spacing:.08em!important}
+  #masthead nav>span{padding-left:7px!important;margin-left:0!important;gap:3px!important}
+  #masthead nav button{font-size:11px!important}
+  #dishrow{grid-template-columns:1fr 1fr !important}
+  #dishrow figure:first-child,#dishrow figure:last-child{grid-column:1/-1}
+  #dishrow figure:first-child img,#dishrow figure:last-child img{min-height:280px}
+  #menuboard{grid-template-columns:1fr 1fr !important;gap:0 18px !important}
+  .menu-panel{padding:28px 22px}
+  .menu-panel__head{grid-template-columns:1fr;gap:14px}
+  .menu-category{padding:20px 0!important;border-right:0!important;border-top:1px solid rgba(198,161,91,.18)}
+  .menu-category:first-child{border-top:0}
+  .menu-category:nth-child(2){border-top:0}
+  .menu-category li{font-size:17px}
+  .menu-extras{grid-template-columns:1fr 1fr}
+  .menu-extra{padding:15px 12px!important}
+  .menu-extra:nth-child(3){border-left:0;border-top:1px solid rgba(198,161,91,.18)}
+  .menu-extra:nth-child(4){border-top:1px solid rgba(198,161,91,.18)}
+  .menu-panel__callout{align-items:flex-start;flex-direction:column}
+  #kitchenrow{grid-template-columns:1fr !important}
+  #kitchenrow img:nth-child(3){display:block !important}
+  #bookfields{grid-template-columns:1fr !important}
+  #weekrow{grid-template-columns:1fr !important}
+  .daycell:nth-child(n+2){border-top:1px solid rgba(42,38,32,.14)}
+  #footerrow{grid-template-columns:1fr !important}
+  #specialrow>div:last-child{transform:none}
+  .today-lunch-card{grid-template-columns:1fr;gap:18px;padding:24px 22px}
+  .today-lunch-card__items{grid-template-columns:1fr;border-left:0;border-top:1px solid rgba(198,161,91,.28)}
+  .today-lunch-card__item{padding:12px 0;border-right:0;border-bottom:1px solid rgba(198,161,91,.18)}
+  .today-lunch-card__price{text-align:left}
+  .neon-sign-frame{outline-offset:4px}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<main id="main" style="background:#faf6ee;color:#2a2620;font-family:'DM Sans',sans-serif;overflow-x:clip">
+
+<div style="background:#16241c">
+  <div class="wrap" style="max-width:1360px;margin:0 auto;padding:9px 48px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 26px">
+    <span data-es="Negocio familiar · Abrimos el 7 de marzo de 2026" style="font:400 9.5px/1.5 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#c6a15b">Family-owned · Opened March 7, 2026</span>
+    <span data-es="Especiales de almuerzo, lunes a viernes" style="font:400 9.5px/1.5 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(198,161,91,.62)">Lunch specials Monday – Friday</span>
+  </div>
+</div>
+
+<div id="mastbar" style="position:sticky;top:0;z-index:40;background:#faf6ee;border-bottom:1px solid rgba(42,38,32,.12)">
+
+<header id="masthead" class="wrap" style="max-width:1360px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:16px 48px">
+  <a href="#top" style="display:flex;align-items:center;gap:15px;text-decoration:none;flex:none">
+    <img src="assets/photos/logo-mr-v2.webp" alt="Miguel's Restaurante" style="width:56px;height:auto;flex:none">
+    <span style="display:flex;flex-direction:column;gap:3px">
+      <span style="font:400 26px/1 'Instrument Serif',serif;color:#1f3026;letter-spacing:.01em">Miguel's Restaurante</span>
+      <span data-es="Carnes · Mariscos · Ridgeland, MS" style="font:400 11px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#8a6b2e">Steak · Seafood · Ridgeland, MS</span>
+    </span>
+  </a><nav style="display:flex;align-items:center;gap:17px;flex:none">
+    
+    <a href="#dishes" data-es="Platos" class="navlink-extra" style="font:400 14px/1 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;color:#5d564b;padding-bottom:4px;border-bottom:1px solid transparent" style-hover="color:#1f3026">Dishes</a>
+    <a href="#top" data-es="Inicio" style="font:400 14px/1 'DM Sans',sans-serif; letter-spacing:.1em; text-transform: uppercase; white-space: nowrap; color: #1f3026; padding-bottom: 4px; border-bottom: 1px solid #c6a15b" style-hover="color:#8a6b2e">Home</a><a href="#menu" data-es="Menú" style="font:400 14px/1 'DM Sans',sans-serif; letter-spacing:.1em; text-transform: uppercase; white-space: nowrap; color: #5d564b;padding-bottom:4px;border-bottom:1px solid transparent" style-hover="color:#1f3026">Menu</a>
+    <a href="#lunch" data-es="Almuerzo" class="navlink-extra" style="font:400 14px/1 'DM Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;color:#5d564b;padding-bottom:4px;border-bottom:1px solid transparent" style-hover="color:#1f3026">Lunch</a>
+    <a href="#chef" data-es="El Chef" style="font:400 14px/1 'DM Sans',sans-serif; letter-spacing:.1em; text-transform: uppercase; white-space: nowrap; color: #5d564b;padding-bottom:4px;border-bottom:1px solid transparent" style-hover="color:#1f3026">The Chef</a>
+    <a href="#visit" data-es="Visítanos" style="font:400 14px/1 'DM Sans',sans-serif; letter-spacing:.1em; text-transform: uppercase; white-space: nowrap; color: #5d564b;padding-bottom:4px;border-bottom:1px solid transparent" style-hover="color:#1f3026">Visit</a>
+    <span style="display:flex;align-items:center;gap:6px;padding:0 4px 0 12px;margin-left:5px;border-left:1px solid rgba(42,38,32,.16)">
+      <button id="lang-en" type="button" data-set-lang="en" aria-pressed="true" style="padding:6px 2px;border:none;background:transparent;color:#5d564b;font:500 13px/1 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase" style-hover="color:#1f3026">EN</button>
+      <span style="font:300 13px/1 'DM Sans',sans-serif;color:rgba(42,38,32,.3)">/</span>
+      <button id="lang-es" type="button" data-set-lang="es" aria-pressed="false" style="padding:6px 2px;border:none;background:transparent;color:#5d564b;font:500 13px/1 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase" style-hover="color:#1f3026">ES</button>
+    </span>
+    <a href="tel:+17693003032" class="desktop-phone" style="display:inline-flex;align-items:center;gap:10px;padding:13px 20px;background:#1f3026;color:#f4efe2;font:500 13px/1 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap" style-hover="background:#2b4234">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6.2 4.5h3.1l1.5 3.8-2 1.4a10.4 10.4 0 0 0 5.5 5.5l1.4-2 3.8 1.5v3.1a1.2 1.2 0 0 1-1.3 1.2A15.6 15.6 0 0 1 5 5.8a1.2 1.2 0 0 1 1.2-1.3z"></path></svg>
+      (769) 300-3032
+    </a>
+  </nav>
+  
+</header></div>
+
+<section id="top">
+  <div id="herogrid" style="display:grid;grid-template-columns:.92fr 1.08fr;align-items:stretch">
+    <div id="heropanel" style="background:#1f3026;display:flex;flex-direction:column;justify-content:flex-start;gap:22px;padding:clamp(44px,5vw,76px) clamp(30px,4vw,64px)">
+      <div style="display:flex;align-items:center;gap:13px">
+        <span style="width:26px;height:1px;background:#c6a15b"></span>
+        <span style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#c6a15b"><span id="today-line">Today at Miguel&#39;s</span></span>
+      </div>
+      <h1 data-es="Carnes, mariscos, Oaxaca y cocina del Sur, de una sola cocina." style="margin:0;font:400 clamp(38px,4.6vw,68px)/1.05 'Instrument Serif',serif;color:#f4efe2;letter-spacing:-.015em;max-width:20ch;text-wrap:balance">Steak, seafood, Oaxaca and Southern, out of one kitchen.</h1>
+      <p data-es="Carnes y mariscos por la noche, almuerzos de lunes a viernes. Miguel lo cocina todo." style="margin:0;max-width:40ch;font:300 16px/1.8 'DM Sans',sans-serif;color:rgba(244,239,226,.76)">Steak and seafood in the evening, plate lunches Monday through Friday. Miguel cooks all of it.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:13px;margin-top:6px">
+        <a href="tel:+17693003032" data-es="Llame al (769) 300-3032" style="display:inline-flex;align-items:center;justify-content:center;padding:16px 28px;background:#c6a15b;color:#16241c;font:500 10.5px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase" style-hover="background:#dcb878">Call (769) 300-3032</a>
+        <a href="#menu" data-es="Ver el menú" style="display:inline-flex;align-items:center;justify-content:center;padding:16px 28px;border:1px solid rgba(198,161,91,.55);color:#c6a15b;font:500 10.5px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase" style-hover="background:rgba(198,161,91,.12)">See the Menu</a>
+      </div>
+    </div>
+    <img id="heroimg" src="assets/photos/miguel-at-the-pass.webp" alt="Chef Miguel Martinez plating at the pass" style="width:100%;height:100%;min-height:clamp(380px,46vw,620px);object-fit:cover;object-position:40% 4%">
+  </div>
+</section>
+
+<section id="dishes" class="wrap" style="max-width:1360px;margin:0 auto;padding:56px 48px 0">
+  <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:26px">
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <span data-es="Lo que más piden" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#8a6b2e">What people keep ordering</span>
+      <h2 data-es="Uno de cada lado del menú" style="margin:0;font:400 clamp(28px,3.4vw,46px)/1.06 'Instrument Serif',serif;color:#1f3026;letter-spacing:-.015em">One from each side of the menu</h2>
+    </div>
+    <a href="#menu" style="display:inline-flex;align-items:center;gap:9px;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">
+      <span data-es="Ver el menú completo">See the full menu</span>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 12h14"></path><path d="M13.6 6.8 19 12l-5.4 5.2"></path></svg>
+    </a>
+  </div>
+  <div id="dishrow" style="display:grid;grid-template-columns:repeat(6,1fr);gap:20px">
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/steak-tomahawk-bearnaise.webp" alt="Tomahawk with béarnaise" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span data-es="Carnes" style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Steak</span>
+        <span data-es="Tomahawk con bearnesa" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Tomahawk, béarnaise</span>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/seafood-grilled-oysters.webp" alt="Grilled oysters" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span data-es="Mariscos" style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Seafood</span>
+        <span data-es="Ostiones asados" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Grilled oysters</span>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/chicken-tamales.webp" alt="Chicken tamales" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Oaxaca</span>
+        <span data-es="Tamales de pollo" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Chicken tamales</span>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/southern-chicken-fried-steak.webp" alt="Chicken fried steak" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span data-es="Del Sur" style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Southern</span>
+        <span data-es="Bistec empanizado" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Chicken fried steak</span>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/chips-cheese-dip.webp" alt="Chips and cheese dip" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span data-es="Para empezar" style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">To start</span>
+        <span data-es="Totopos con queso" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Chips &amp; cheese dip</span>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column">
+      <img src="assets/photos/strawberry-cheesecake.webp" alt="Strawberry cheesecake" style="width:100%;height:clamp(160px,14vw,190px);object-fit:cover">
+      <figcaption style="display:flex;flex-direction:column;gap:5px;padding:14px 15px 16px">
+        <span data-es="Para terminar" style="font:400 9px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">To finish</span>
+        <span data-es="Pastel de queso con fresa" style="font:400 18px/1.25 'Instrument Serif',serif;color:#1f3026">Strawberry cheesecake</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="specialrow" class="wrap" style="max-width:1360px;margin:0 auto;padding:34px 48px 0;display:grid;grid-template-columns:1.55fr 1fr;gap:22px;align-items:stretch">
+  <div style="background:#1f3026;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:0">
+    <div style="display:flex;flex-direction:column;gap:15px;padding:clamp(28px,3vw,40px)">
+      <span data-es="De la cocina esta noche" style="font:400 9.5px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c6a15b">Off the pass tonight</span>
+      <span data-es="Filete con jaiba y holandesa" style="font:400 clamp(26px,3vw,38px)/1.1 'Instrument Serif',serif;color:#f4efe2;letter-spacing:-.01em;max-width:16ch">Filet &amp; crab, hollandaise</span>
+      <span data-es="Filete terminado con jaiba y salsa holandesa. Los cortes cambian según lo que llega." style="font:300 14px/1.75 'DM Sans',sans-serif;color:rgba(244,239,226,.74);max-width:32ch">Filet finished with lump crab and hollandaise. Cuts change with what comes in.</span>
+      <span data-es="Pregunte el precio de hoy" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(244,239,226,.5)">Ask for tonight's price</span>
+      <a href="#menu" data-es="Ver el menú" style="display:inline-flex;align-self:flex-start;align-items:center;padding:14px 24px;background:#c6a15b;color:#16241c;font:500 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-top:4px" style-hover="background:#dcb878">Explore Menu</a>
+    </div>
+    <img src="assets/photos/steak-filet-crab-hollandaise.webp" alt="Filet with crab and hollandaise" style="width:100%;height:100%;min-height:clamp(260px,26vw,340px);object-fit:cover">
+  </div>
+  <div style="background:#f1e9d9;border:1px solid rgba(42,38,32,.1);display:flex;flex-direction:column;gap:16px;padding:clamp(28px,3vw,38px)">
+    <span style="font:400 34px/1 'Instrument Serif',serif;color:rgba(198,161,91,.75)">“</span>
+    <span data-es="¡Nos encantó la comida! El huachinango con salsa de Oaxaca y el pescado rojo estuvieron fabulosos, y el pastel de queso casero — ¡wow!" style="font:400 clamp(20px,2vw,25px)/1.4 'Instrument Serif',serif;color:#2a2620;letter-spacing:-.01em">We loved the food. The snapper with Oaxaca sauce and the red fish were fabulous, and the homemade cheesecake — wow.</span>
+    <span style="flex:1"></span>
+    <span style="display:flex;align-items:center;gap:12px;padding-top:16px;border-top:1px solid rgba(42,38,32,.14)">
+      <span style="width:34px;height:34px;border-radius:50%;background:rgba(42,38,32,.1);flex:none"></span>
+      <span style="display:flex;flex-direction:column;gap:4px">
+        <span style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Tammie Y.</span>
+        <span data-es="Madison, MS · vía Yelp" style="font:300 12px/1 'DM Sans',sans-serif;color:#6b6357">Madison, MS · via Yelp</span>
+      </span>
+    </span>
+  </div>
+</section>
+
+<section id="menu" class="wrap" style="max-width:1360px;margin:0 auto;padding:72px 48px 0">
+  <div class="menu-panel">
+    <div class="menu-panel__head">
+      <div>
+        <span class="menu-panel__eyebrow" data-es="Desde la cocina">From the kitchen</span>
+        <h2 class="menu-panel__title" data-es="Una cocina. Cuatro tradiciones.">One kitchen. Four traditions.</h2>
+      </div>
+      <p class="menu-panel__intro" data-es="Miguel cocina cada servicio. Los cortes y la pesca cambian según lo que llega, así que pregunte por la selección y los precios de esta noche.">Miguel cooks every service. Cuts and catches change with what comes in, so ask for tonight's selection and prices.</p>
+    </div>
+
+    <div id="menuboard" class="menu-panel__grid">
+      <div class="menu-category">
+        <span class="menu-category__name" data-es="Carnes">Steak</span>
+        <ul>
+          <li>Ribeye</li>
+          <li data-es="Tomahawk con bearnesa">Tomahawk, béarnaise</li>
+          <li data-es="Filete con jaiba y holandesa">Filet &amp; crab, hollandaise</li>
+          <li data-es="Bistec de hamburguesa">Hamburger steak</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <span class="menu-category__name" data-es="Mariscos">Seafood</span>
+        <ul>
+          <li data-es="Ostiones asados">Grilled oysters</li>
+          <li data-es="Pescado sellado con jaiba">Blackened fish &amp; crab</li>
+          <li data-es="Quesadilla de mariscos">Seafood quesadilla <span class="fave">◆</span></li>
+          <li data-es="Plato de mariscos mixto">Mixed seafood platter</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <span class="menu-category__name">Oaxaca</span>
+        <ul>
+          <li data-es="Tamales de pollo">Chicken tamales <span class="fave">◆</span></li>
+          <li>Empanadas <span class="fave">◆</span></li>
+          <li>Fajitas <span class="fave">◆</span></li>
+          <li data-es="Nachos de pollo">Chicken nachos</li>
+          <li data-es="Pescado en adobo">Adobo fish</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <span class="menu-category__name" data-es="Del Sur">Southern</span>
+        <ul>
+          <li data-es="Bistec empanizado">Chicken fried steak</li>
+          <li data-es="Bagre frito">Fried catfish</li>
+          <li data-es="Frijoles rojos con arroz">Red beans &amp; rice</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-extras">
+      <div class="menu-extra">
+        <span class="menu-extra__label" data-es="Para empezar">To start</span>
+        <span class="menu-extra__item" data-es="Totopos con queso">Chips &amp; cheese dip</span>
+      </div>
+      <div class="menu-extra">
+        <span class="menu-extra__label" data-es="Ensalada">Salad</span>
+        <span class="menu-extra__item" data-es="Ensalada de espinaca con fresa">Strawberry spinach</span>
+      </div>
+      <div class="menu-extra">
+        <span class="menu-extra__label" data-es="Para terminar">To finish</span>
+        <span class="menu-extra__item" data-es="Pastel de queso con fresa">Strawberry cheesecake</span>
+      </div>
+      <div class="menu-extra">
+        <span class="menu-extra__label" data-es="Para terminar">To finish</span>
+        <span class="menu-extra__item" data-es="Pastel de durazno">Peach cobbler</span>
+      </div>
+    </div>
+
+    <div class="menu-panel__callout">
+      <p><span class="fave" style="color:#c6a15b">◆</span> <span data-es="Los favoritos de los clientes aparecen marcados. Los precios de la cena cambian con la selección del día.">Guest favorites are marked. Dinner prices change with the day's selection.</span></p>
+      <a href="tel:+17693003032" data-es="Llame por la selección de hoy">Call for tonight's menu</a>
+    </div>
+  </div>
+</section>
+
+<section id="lunch" class="wrap" style="max-width:1360px;margin:0 auto;padding:64px 48px 0">
+  <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:22px">
+    <div>
+      <span data-es="De lunes a viernes" style="display:block;margin-bottom:9px;font:500 9px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#8a6b2e">Monday through Friday</span>
+      <h2 id="lunch-heading" style="margin:0;font:400 clamp(30px,3.5vw,46px)/1.06 'Instrument Serif',serif;color:#1f3026;letter-spacing:-.015em">Today's plate lunch</h2>
+    </div>
+    <span id="lunch-note" style="font:300 13.5px/1.7 'DM Sans',sans-serif;color:#6b6357">Three plates a day, $16.50 each.</span>
+  </div>
+  <div class="today-lunch-card">
+    <div class="today-lunch-card__day">
+      <span id="today-lunch-label" class="today-lunch-card__label">On today's board</span>
+      <span id="today-lunch-day" class="today-lunch-card__name">Monday</span>
+    </div>
+    <div id="today-lunch-items" class="today-lunch-card__items" aria-live="polite"></div>
+    <span id="today-lunch-price" class="today-lunch-card__price">$16.50 each</span>
+  </div>
+  <details class="week-details">
+    <summary data-es="Ver el menú completo de lunes a viernes">See the full Monday–Friday board</summary>
+    <div id="weekrow" style="display:grid;grid-template-columns:repeat(5,1fr)">
+      <div class="daycell" data-day="1" style="padding:18px;display:flex;flex-direction:column;gap:8px">
+        <span data-es="Lunes" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Monday</span>
+        <span data-es="Pollo a la barbacoa|Costillas de puerco|Bisteque" style="font:400 16px/1.45 'Instrument Serif',serif;color:#1f3026">BBQ Chicken<br>Pork Ribs<br>Bisteque</span>
+      </div>
+      <div class="daycell" data-day="2" style="padding:18px;display:flex;flex-direction:column;gap:8px">
+        <span data-es="Martes" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Tuesday</span>
+        <span data-es="Bistec empanizado|Pollo al horno|Carne asada" style="font:400 16px/1.45 'Instrument Serif',serif;color:#1f3026">Country Fried Steak<br>Baked Chicken<br>Carne Asada</span>
+      </div>
+      <div class="daycell" data-day="3" style="padding:18px;display:flex;flex-direction:column;gap:8px">
+        <span data-es="Miércoles" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Wednesday</span>
+        <span data-es="Bistec de hamburguesa|Espagueti con pollo|Carne asada" style="font:400 16px/1.45 'Instrument Serif',serif;color:#1f3026">Hamburger Steak<br>Chicken Spaghetti<br>Carne Asada</span>
+      </div>
+      <div class="daycell" data-day="4" style="padding:18px;display:flex;flex-direction:column;gap:8px">
+        <span data-es="Jueves" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Thursday</span>
+        <span data-es="Pollo frito|Frijoles rojos con arroz|Carne asada" style="font:400 16px/1.45 'Instrument Serif',serif;color:#1f3026">Fried Chicken<br>Red Beans &amp; Rice<br>Carne Asada</span>
+      </div>
+      <div class="daycell" data-day="5" style="padding:18px;display:flex;flex-direction:column;gap:8px">
+        <span data-es="Viernes" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#8a6b2e">Friday</span>
+        <span data-es="Bagre|Chuletas de puerco|Carne asada" style="font:400 16px/1.45 'Instrument Serif',serif;color:#1f3026">Catfish<br>Pork Chops<br>Carne Asada</span>
+      </div>
+    </div>
+  </details>
+</section>
+
+<section id="chef" style="background:#1f3026;margin-top:64px">
+  <div id="chefgrid" class="wrap" style="max-width:1360px;margin:0 auto;display:grid;grid-template-columns:.78fr 1fr;gap:56px;align-items:center;padding:64px 48px">
+    <img src="assets/photos/hands-plating.webp" alt="Finishing a filet with crab and hollandaise" style="width:100%;height:clamp(360px,38vw,540px);object-fit:cover;object-position:center 42%">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <div style="display:flex;align-items:center;gap:13px">
+        <span style="width:28px;height:1px;background:#c6a15b"></span>
+        <span data-es="Quién cocina" style="font:400 10.5px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c6a15b">Who is cooking</span>
+      </div>
+      <h2 data-es="Miguel está en la cocina en cada servicio." style="margin:0;font:400 clamp(30px,4vw,58px)/1.04 'Instrument Serif',serif;color:#f4efe2;text-wrap:balance;max-width:17ch;letter-spacing:-.015em">Miguel is on the line every service.</h2>
+      <p data-es="Abrimos el 7 de marzo de 2026. Miguel Martinez es el Chef Ejecutivo, y está aquí — emplatando la comida que llega a su mesa." style="margin:0;max-width:52ch;font:300 16.5px/1.85 'DM Sans',sans-serif;color:rgba(244,239,226,.84)">We opened on March 7, 2026. Miguel Martinez is the Executive Chef, and he is here — plating the food that goes out to your table.</p>
+      <p data-es="Un ribeye de casa de carnes, ostiones asados, un plato oaxaqueño y un almuerzo del Sur salen del mismo cuarto, cocinados por la misma persona." style="margin:0;max-width:52ch;font:300 15px/1.85 'DM Sans',sans-serif;color:rgba(244,239,226,.6)">A steakhouse ribeye, grilled oysters, an Oaxaca plate and a Southern plate lunch all come out of the same room, cooked by the same person.</p>
+      <div class="chef-note">
+        <span data-es="Cuatro tradiciones. Un cocinero. Un estándar." style="font:400 clamp(21px,2.4vw,30px)/1.25 'Instrument Serif',serif;color:#f4efe2;letter-spacing:-.01em">Four traditions. One cook. One standard.</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;margin-top:4px;padding-top:18px;border-top:1px solid rgba(198,161,91,.3)">
+        <span style="font:400 27px/1 'Instrument Serif',serif;color:#f4efe2">Miguel Martinez</span>
+        <span data-es="Chef Ejecutivo" style="font:300 11px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#c6a15b">Executive Chef</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kitchen">
+  <div class="wrap" style="max-width:1360px;margin:0 auto;padding:44px 48px 20px;display:flex;align-items:baseline;gap:20px">
+    <span data-es="En la cocina" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#8a6b2e">In the kitchen</span>
+    <span style="flex:1;height:1px;background:rgba(42,38,32,.14)"></span>
+  </div>
+  <div id="kitchenrow" style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px">
+    <img src="assets/photos/steak-hero-ribeye-broccoli.webp" alt="A ribeye off the grill" style="width:100%;height:clamp(340px,34vw,460px);object-fit:cover;object-position:center 50%">
+    <img src="assets/photos/person-holding-food.webp" alt="Miguel Martinez carrying two plates out" style="width:100%;height:clamp(340px,34vw,460px);object-fit:cover;object-position:center 5%">
+    <img src="assets/photos/plate-carried-out.webp" alt="A plate on its way to the table" style="width:100%;height:clamp(340px,34vw,460px);object-fit:cover;object-position:center 46%">
+  </div>
+</section>
+
+<section id="visit" style="background:#1f3026">
+  <div id="reserverow" class="wrap" style="max-width:1360px;margin:0 auto;padding:60px 48px 64px;display:grid;grid-template-columns:1.15fr 1fr .9fr;gap:52px;align-items:start">
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <span data-es="Una mesa en Miguel's" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#c6a15b">A table at Miguel's</span>
+      <h2 data-es="Llame. Nosotros guardamos la mesa." style="margin:0;font:400 clamp(28px,3.2vw,44px)/1.05 'Instrument Serif',serif;color:#f4efe2;max-width:15ch;letter-spacing:-.015em">Call. We will hold the table.</h2>
+      <div class="reservation-callout">
+        <a class="reservation-callout__phone" href="tel:+17693003032">(769) 300-3032</a>
+        <div class="reservation-callout__actions">
+          <a href="tel:+17693003032" data-es="Llamar ahora">Call now</a>
+          <a href="https://maps.google.com/?q=587+Highway+51+J,+Ridgeland,+MS+39157" target="_blank" rel="noopener" data-es="Cómo llegar">Get directions</a>
+        </div>
+      </div>
+      <span data-es="Las mesas se reservan por teléfono. Bienvenidos sin reservación, sin código de vestimenta." style="font:300 12.5px/1.7 'DM Sans',sans-serif;color:rgba(244,239,226,.55)">Tables are held by phone. Walk-ins welcome, no dress code.</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:13px;padding-top:24px;border-top:1px solid rgba(198,161,91,.34)">
+      <span data-es="Horario" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#c6a15b">Hours</span>
+      <span data-es="Especiales de almuerzo, lunes a viernes" style="font:400 19px/1.4 'Instrument Serif',serif;color:#f4efe2">Lunch specials Monday – Friday</span>
+      <span data-es="Carnes y mariscos por la noche" style="font:400 19px/1.4 'Instrument Serif',serif;color:#f4efe2">Steak &amp; seafood in the evening</span>
+      <a href="tel:+17693003032" data-es="Llame por el horario de hoy" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#c6a15b;margin-top:4px" style-hover="color:#dcb878">Call for today's hours</a>
+      <span style="height:1px;background:rgba(198,161,91,.34);margin:14px 0 4px"></span>
+      <span data-es="Dónde estamos" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#c6a15b">Find us</span>
+      <a href="https://maps.google.com/?q=587+Highway+51+J,+Ridgeland,+MS+39157" target="_blank" rel="noopener" style="font:300 14.5px/1.7 'DM Sans',sans-serif;color:#f4efe2" style-hover="color:#c6a15b">587 Highway 51 J<br>Ridgeland, MS 39157</a>
+      <a href="mailto:miguelsrestaurantemr@gmail.com" style="font:300 14.5px/1.7 'DM Sans',sans-serif;color:#f4efe2;word-break:break-word" style-hover="color:#c6a15b">miguelsrestaurantemr@gmail.com</a>
+    </div>
+    <img class="neon-sign-frame" src="assets/photos/miguels-restaurante-sign.webp" alt="Miguel's Restaurante storefront on Highway 51" style="width:100%;height:clamp(280px,26vw,360px);object-fit:cover;object-position:center 34%">
+  </div>
+</section>
+
+<footer style="background:#16241c;border-top:1px solid rgba(198,161,91,.2)">
+  <div id="footerrow" class="wrap" style="max-width:1360px;margin:0 auto;padding:28px 48px;display:grid;grid-template-columns:1.35fr 1fr;align-items:center;gap:44px">
+    <div style="display:flex;align-items:center;gap:20px">
+      <div style="display:flex;align-items:center;gap:16px">
+        <img src="assets/photos/logo-mr-v2.webp" alt="Miguel's Restaurante" style="width:58px;height:auto;flex:none">
+        <span style="display:flex;flex-direction:column;gap:4px">
+          <span style="font:400 20px/1.1 'Instrument Serif',serif;color:#f4efe2">Miguel's Restaurante</span>
+          <span data-es="Negocio familiar · Miguel Martinez, Chef Ejecutivo" style="font:300 12px/1.5 'DM Sans',sans-serif;color:rgba(244,239,226,.55)">Family-owned · Miguel Martinez, Executive Chef</span>
+        </span>
+      </div>
+      <span style="display:flex;align-items:center;gap:7px;flex:none">
+        <span style="font:400 12px/1 'DM Sans',sans-serif;color:rgba(198,161,91,.75)">✟</span>
+        <span data-es="Juan 3:16" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:rgba(198,161,91,.75)">John 3:16</span>
+      </span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:10px 18px">
+      <a href="tel:+17693003032" style="font:400 13px/1 'DM Sans',sans-serif;color:#f4efe2" style-hover="color:#c6a15b">(769) 300-3032</a>
+      <a href="https://maps.google.com/?q=587+Highway+51+J,+Ridgeland,+MS+39157" target="_blank" rel="noopener" style="font:300 12px/1.4 'DM Sans',sans-serif;color:rgba(244,239,226,.68)" style-hover="color:#c6a15b">587 Highway 51 J, Ridgeland</a>
+      <a href="https://instagram.com/miguels.restaurant" target="_blank" rel="noopener" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#c6a15b" style-hover="color:#dcb878">Instagram</a>
+      <a href="https://www.facebook.com/p/Miguels-Restaurante-61588656271305/" target="_blank" rel="noopener" style="font:400 10px/1 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#c6a15b" style-hover="color:#dcb878">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+</main>
+<nav class="mobile-callbar" aria-label="Quick actions">
+  <a href="tel:+17693003032">Call</a>
+  <a href="https://maps.google.com/?q=587+Highway+51+J,+Ridgeland,+MS+39157" target="_blank" rel="noopener">Directions</a>
+</nav>
+<script src="js/home-v4.js" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Miguel's Restaurante","servesCuisine":["Steakhouse","Seafood","Oaxacan","Southern"],"address":{"@type":"PostalAddress","streetAddress":"587 Highway 51 J","addressLocality":"Ridgeland","addressRegion":"MS","postalCode":"39157","addressCountry":"US"},"telephone":"+1-769-300-3032","email":"miguelsrestaurantemr@gmail.com","sameAs":["https://instagram.com/miguels.restaurant","https://www.facebook.com/p/Miguels-Restaurante-61588656271305/"]}
+</script>
+</body>
+</html>
