@@ -1,0 +1,24 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "instrument serif",
+        "createdAt": "2026-09-02T20:03:47.607Z",
+        "reason": "user confirmed: deliberate typeface for the restaurant brand, paired with DM Sans"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "green-netlify-staging/index.html",
+          "site/index.html"
+        ],
+        "createdAt": "2026-09-02T20:09:49.329Z",
+        "reason": "user confirmed: intentional neon motif (OptionA-NeonSign direction, storefront-night-neon imagery). Scoped to both paths because the redesign currently lives in green-netlify-staging/ and may later move into site/."
+      }
+    ]
+  }
+}
