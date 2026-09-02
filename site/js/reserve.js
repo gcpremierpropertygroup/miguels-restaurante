@@ -1,7 +1,8 @@
 /* Miguel's Restaurante — reservation dialog.
-   No backend exists for this static site, so "submitting" builds a mailto:
-   with the request details and shows a confirmation screen that's honest
-   about it being a request, not an instant-confirmed booking. */
+   No backend exists for this static site, so "submitting" only assembles a
+   mailto: from the request details. Nothing is transmitted until the guest
+   sends that mail themselves, so the final screen must say so rather than
+   claim the request was sent. */
 
 (function () {
   'use strict';
@@ -105,12 +106,12 @@
         '</div>' +
 
         '<div class="reserve__confirm" data-reserve-confirm hidden>' +
-          '<div class="reserve__confirm-icon">&#10003;</div>' +
-          '<h2 class="reserve__confirm-title">Request Sent</h2>' +
+          '<div class="reserve__confirm-icon">&#9993;</div>' +
+          '<h2 class="reserve__confirm-title">One Last Step</h2>' +
           '<p class="reserve__confirm-summary" data-confirm-summary></p>' +
-          '<p class="reserve__confirm-summary">We&rsquo;ll call you to confirm &mdash; tables aren&rsquo;t booked until we do.</p>' +
+          '<p class="reserve__confirm-summary">This hasn&rsquo;t reached us yet &mdash; send it below, or call us. We&rsquo;ll ring you back to confirm; the table isn&rsquo;t held until we do.</p>' +
           '<div class="reserve__confirm-actions">' +
-            '<a class="btn btn--solid" data-confirm-email href="#">Email Us This Request</a>' +
+            '<a class="btn btn--solid" data-confirm-email href="#">Send This Request</a>' +
             '<a class="btn btn--ghost" href="tel:' + RESTAURANT_PHONE + '">Or Call ' + RESTAURANT_PHONE_DISPLAY + '</a>' +
           '</div>' +
         '</div>' +
