@@ -6,12 +6,13 @@
 <title>Visit Us — Directions &amp; Hours | Miguel's Restaurante</title>
 <meta name="description" content="Miguel's Restaurante, 587 Highway 51 J, Ridgeland, MS 39157. Southern plate lunches Monday through Friday, steak and seafood dine-in evenings. Call (769) 300-3032.">
 <meta name="theme-color" content="#0d0d0e">
-<link rel="canonical" href="https://miguelsrestaurante.com/visit.html">
+<link rel="canonical" href="https://miguels-restaurante.netlify.app/visit.html">
 
 <meta property="og:type" content="restaurant">
+<meta property="og:url" content="https://miguels-restaurante.netlify.app/visit.html">
 <meta property="og:title" content="Visit Miguel's Restaurante">
 <meta property="og:description" content="587 Highway 51 J, Ridgeland, MS 39157. Southern plate lunches Monday through Friday. Steak and seafood in the evening, dine-in.">
-<meta property="og:image" content="assets/photos/miguels-restaurante-sign.webp">
+<meta property="og:image" content="https://miguels-restaurante.netlify.app/assets/photos/miguels-restaurante-sign.webp">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="assets/photos/logo-mr-v2.webp">
@@ -33,16 +34,16 @@
   </button>
   <div class="topbar__menu" id="topbar-menu">
     <nav class="topbar__nav topbar__nav--left" aria-label="Menus">
-      <a class="topbar__link" href="lunch.html" data-i18n="shared.nav.lunch">Lunch</a>
-      <a class="topbar__link" href="dinner.html" data-i18n="shared.nav.dinner">Dinner</a>
+      <a class='topbar__link' data-i18n='shared.nav.lunch' href='/lunch'>Lunch</a>
+      <a class='topbar__link' data-i18n='shared.nav.dinner' href='/dinner'>Dinner</a>
     </nav>
     <nav class="topbar__nav topbar__nav--right" aria-label="About">
-      <a class="topbar__link" href="story.html" data-i18n="shared.nav.story">Our Story</a>
-      <a class="topbar__link" href="dishes.html" data-i18n="shared.nav.dishes">Dishes</a>
-      <a class="topbar__link" href="visit.html" data-i18n="shared.nav.visit">Visit</a>
+      <a class='topbar__link' data-i18n='shared.nav.story' href='/story'>Our Story</a>
+      <a class='topbar__link' data-i18n='shared.nav.dishes' href='/dishes'>Dishes</a>
+      <a class='topbar__link' data-i18n='shared.nav.visit' href='/visit'>Visit</a>
     </nav>
   </div>
-  <a class="wordmark" href="index.html" aria-label="Miguel's Restaurante — home">
+  <a aria-label='Miguel\'s Restaurante — home' class='wordmark' href='/'>
     <span class="wordmark__name">MIGUEL&rsquo;S</span>
     <span class="wordmark__sub">Restaurante</span>
   </a>
@@ -75,7 +76,17 @@
       <a href="mailto:miguelsrestaurantemr@gmail.com">miguelsrestaurantemr@gmail.com</a>
     </div>
 
-    <a class="btn btn--solid" href="tel:+17693003032" style="margin-top:10px" data-i18n="shared.reserve">Reserve a Table</a>
+    <a class="btn btn--solid" href="tel:+17693003032" style="margin-top:10px" data-reserve data-i18n="shared.reserve">Reserve a Table</a>
+
+    <div class="delivery delivery--compact" aria-labelledby="visit-delivery-title">
+      <div class="eyebrow" data-i18n="shared.delivery.eyebrow">Order online</div>
+      <h3 class="delivery__title" id="visit-delivery-title" data-i18n="shared.delivery.title">Delivery Is Coming Soon</h3>
+      <p class="delivery__copy" data-i18n="shared.delivery.copy">DoorDash and Uber Eats ordering links will appear here when delivery opens.</p>
+      <div class="delivery__services" aria-label="Delivery services coming soon">
+        <span class="delivery__service" aria-disabled="true"><img src="assets/brands/doordash.svg" width="154" height="18" alt="DoorDash"><span data-i18n="shared.delivery.comingSoon">Coming soon</span></span>
+        <span class="delivery__service" aria-disabled="true"><img src="assets/brands/uber-eats.svg" width="146" height="24" alt="Uber Eats"><span data-i18n="shared.delivery.comingSoon">Coming soon</span></span>
+      </div>
+    </div>
 
     <div class="social">
       <a href="https://instagram.com/miguels.restaurant" target="_blank" rel="noopener">
@@ -187,5 +198,6 @@
 
 <script src="js/i18n.js"></script>
 <script src="js/main.js" defer></script>
+<script src="js/reserve.js" defer></script>
 </body>
 </html>
