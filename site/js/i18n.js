@@ -22,6 +22,28 @@
     'shared.delivery.copy': { en: 'DoorDash and Uber Eats ordering links will appear here when delivery opens.', es: 'Los enlaces para ordenar por DoorDash y Uber Eats aparecer&aacute;n aqu&iacute; cuando comience el servicio a domicilio.' },
     'shared.delivery.comingSoon': { en: 'Coming soon', es: 'Muy pronto' },
     'shared.delivery.servicesAria': { en: 'Delivery services coming soon', es: 'Servicios de entrega muy pronto' },
+
+    /* ---------- aria-labels ----------
+       Landmark and control labels that only a screen reader hears. They are
+       applied through data-i18n-aria, since innerHTML cannot reach them. */
+    'aria.guestFavorite': { en: 'Guest favorite', es: 'Favorito de los clientes' },
+    'aria.quickActions': { en: 'Quick actions', es: 'Acciones rápidas' },
+    'aria.home': { en: "Miguel's Restaurante — home", es: "Miguel's Restaurante — inicio" },
+    'aria.menus': { en: 'Menus', es: 'Menús' },
+    'aria.about': { en: 'About', es: 'Nosotros' },
+    'aria.fiveStars': { en: '5 out of 5 stars', es: '5 de 5 estrellas' },
+    'aria.topPlates': { en: 'Top plates', es: 'Platillos destacados' },
+    'aria.whatWeCook': { en: 'What we cook', es: 'Lo que cocinamos' },
+    'aria.signatureDishes': { en: 'Signature dishes', es: 'Platillos de la casa' },
+    'aria.ourStory': { en: 'Our story', es: 'Nuestra historia' },
+    'aria.grillVideo': { en: "Miguel working the grill over open flame at Miguel's Restaurante", es: "Miguel trabajando la parrilla sobre fuego abierto en Miguel's Restaurante" },
+    'aria.inTheKitchen': { en: 'In the kitchen', es: 'En la cocina' },
+    'aria.kitchenWithMiguel': { en: 'In the kitchen with Miguel', es: 'En la cocina con Miguel' },
+    'aria.guestReviews': { en: 'Guest reviews', es: 'Opiniones de clientes' },
+    'aria.lunchCounter': { en: 'From the lunch counter', es: 'Del mostrador del almuerzo' },
+    'aria.dinnerTable': { en: 'From the dinner table', es: 'De la mesa de la cena' },
+    'aria.dailyService': { en: 'Daily service', es: 'Servicio diario' },
+    'aria.aroundMiguels': { en: "Around Miguel's", es: "Por Miguel's" },
     'shared.footer.owned': { en: 'Family-owned &middot; Opened March 7, 2026', es: 'Negocio familiar &middot; Abrimos el 7 de marzo de 2026' },
     'shared.footer.chef': { en: 'Miguel Martinez, Executive Chef', es: 'Miguel Martinez, Chef Ejecutivo' },
     'shared.footer.instagram': { en: 'Instagram', es: 'Instagram' },

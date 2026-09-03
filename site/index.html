@@ -34,17 +34,17 @@
     <span class="sr-only">Menu</span>
   </button>
   <div class="topbar__menu" id="topbar-menu">
-    <nav class="topbar__nav topbar__nav--left" aria-label="Menus">
+    <nav class="topbar__nav topbar__nav--left" aria-label="Menus" data-i18n-aria="aria.menus">
       <a class='topbar__link' data-i18n='shared.nav.lunch' href='/lunch'>Lunch</a>
       <a class='topbar__link' data-i18n='shared.nav.dinner' href='/dinner'>Dinner</a>
     </nav>
-    <nav class="topbar__nav topbar__nav--right" aria-label="About">
+    <nav class="topbar__nav topbar__nav--right" aria-label="About" data-i18n-aria="aria.about">
       <a class='topbar__link' data-i18n='shared.nav.story' href='/story'>Our Story</a>
       <a class='topbar__link' data-i18n='shared.nav.dishes' href='/dishes'>Dishes</a>
       <a class='topbar__link' data-i18n='shared.nav.visit' href='/visit'>Visit</a>
     </nav>
   </div>
-  <a aria-label="Miguel's Restaurante — home" class='wordmark' href='/'>
+  <a aria-label="Miguel's Restaurante — home" data-i18n-aria="aria.home" class='wordmark' href='/'>
     <span class="wordmark__name">MIGUEL&rsquo;S</span>
     <span class="wordmark__sub">Restaurante</span>
   </a>
@@ -78,7 +78,7 @@
   </div>
 </section>
 
-<section class="pillars" aria-label="What we cook">
+<section class="pillars" aria-label="What we cook" data-i18n-aria="aria.whatWeCook">
   <div class="pillar">
     <div class="pillar__num">01</div>
     <h2 class="pillar__title" data-i18n="home.pillars.steak.title">Steak</h2>
@@ -105,7 +105,7 @@
   </div>
 </section>
 
-<section class="story" aria-label="Our story">
+<section class="story" aria-label="Our story" data-i18n-aria="aria.ourStory">
   <figure class="story__figure">
     <div class="story__frame">
       <video class="story__video" data-ambient-video
@@ -114,7 +114,7 @@
              data-poster-mobile="assets/photos/kitchen-line-mobile.webp"
              poster="assets/photos/kitchen-line.webp"
              muted loop playsinline preload="none"
-             aria-label="Miguel working the grill over open flame at Miguel's Restaurante"></video>
+             aria-label="Miguel working the grill over open flame at Miguel's Restaurante" data-i18n-aria="aria.grillVideo"></video>
     </div>
   </figure>
   <div class="story__copy">
@@ -126,13 +126,13 @@
   </div>
 </section>
 
-<section class="dishes" aria-label="Top plates">
+<section class="dishes" aria-label="Top plates" data-i18n-aria="aria.topPlates">
   <div class="eyebrow" data-i18n="home.topplates.eyebrow">Guest favorites</div>
   <h2 class="section-title" data-i18n="home.topplates.title">Top Plates</h2>
   <hr class="rule">
 </section>
 
-<section class="dishgrid" aria-label="Top plates">
+<section class="dishgrid" aria-label="Top plates" data-i18n-aria="aria.topPlates">
   <figure class="dish">
     <img src="assets/photos/steak-tomahawk-bearnaise.webp" loading="lazy" decoding="async"
          alt="Bone-in tomahawk steak finished with b&eacute;arnaise sauce">
@@ -141,12 +141,12 @@
   <figure class="dish">
     <img src="assets/photos/chicken-tamales.webp" loading="lazy" decoding="async"
          alt="Chicken tamales, a guest favorite">
-    <figcaption class="dish__caption dish__caption--tag"><span data-i18n="home.topplates.tamales">Chicken tamales</span><span class="favorite-mark" aria-label="Guest favorite">&#9670;</span></figcaption>
+    <figcaption class="dish__caption dish__caption--tag"><span data-i18n="home.topplates.tamales">Chicken tamales</span><span class="favorite-mark" aria-label="Guest favorite" data-i18n-aria="aria.guestFavorite">&#9670;</span></figcaption>
   </figure>
   <figure class="dish">
     <img src="assets/photos/seafood-quesadilla.webp" loading="lazy" decoding="async"
          alt="Seafood quesadilla with shrimp and cheese">
-    <figcaption class="dish__caption dish__caption--tag"><span data-i18n="home.topplates.quesadilla">Seafood quesadilla</span><span class="favorite-mark" aria-label="Guest favorite">&#9670;</span></figcaption>
+    <figcaption class="dish__caption dish__caption--tag"><span data-i18n="home.topplates.quesadilla">Seafood quesadilla</span><span class="favorite-mark" aria-label="Guest favorite" data-i18n-aria="aria.guestFavorite">&#9670;</span></figcaption>
   </figure>
 </section>
 
@@ -165,7 +165,7 @@
   </div>
 </section>
 
-<section class="band" aria-label="Daily service">
+<section class="band" aria-label="Daily service" data-i18n-aria="aria.dailyService">
   <video class="band__video" data-ambient-video
          data-src="assets/photos/band-grill.mp4"
          data-src-mobile="assets/photos/band-grill-mobile.mp4"
@@ -180,7 +180,7 @@
   </div>
 </section>
 
-<section class="reviews" aria-label="Guest reviews">
+<section class="reviews" aria-label="Guest reviews" data-i18n-aria="aria.guestReviews">
   <div class="section-head">
     <div class="eyebrow" data-i18n="home.reviews.eyebrow">Guest reviews</div>
     <h2 class="section-title" data-i18n="home.reviews.title">What Guests Are Saying</h2>
@@ -188,7 +188,7 @@
   </div>
   <div class="reviewgrid">
     <figure class="review">
-      <div class="review__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review__stars" aria-label="5 out of 5 stars" data-i18n-aria="aria.fiveStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
       <blockquote class="review__quote" data-i18n="home.reviews.tammie">We loved the food! Snapper with Oaxaca sauce and the red fish were fabulous, and the homemade cheesecake&mdash;wow! Service is top notch.</blockquote>
       <figcaption class="review__meta">
         <span class="review__name">Tammie Y.</span>
@@ -196,7 +196,7 @@
       </figcaption>
     </figure>
     <figure class="review">
-      <div class="review__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review__stars" aria-label="5 out of 5 stars" data-i18n-aria="aria.fiveStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
       <blockquote class="review__quote" data-i18n="home.reviews.john">Food was excellent, service was perfect, and the ambiance was great. The guacamole dip is unique, fresh, and delicious&mdash;the grilled oysters were perfect.</blockquote>
       <figcaption class="review__meta">
         <span class="review__name">John H.</span>
@@ -204,7 +204,7 @@
       </figcaption>
     </figure>
     <figure class="review">
-      <div class="review__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review__stars" aria-label="5 out of 5 stars" data-i18n-aria="aria.fiveStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
       <blockquote class="review__quote" data-i18n="home.reviews.mmj">Their oysters with the seafood sauce were absolutely wonderful, and the hamburger was scrumptious on a homemade bun. The quality justifies the price.</blockquote>
       <figcaption class="review__meta">
         <span class="review__name">M M J.</span>
@@ -212,7 +212,7 @@
       </figcaption>
     </figure>
     <figure class="review">
-      <div class="review__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review__stars" aria-label="5 out of 5 stars" data-i18n-aria="aria.fiveStars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
       <blockquote class="review__quote" data-i18n="home.reviews.bobbie">The best chicken tamales and empanadas. We also had the fajitas, and they were so good.</blockquote>
       <figcaption class="review__meta">
         <span class="review__name">Bobbie S.</span>
@@ -250,7 +250,7 @@
   </div>
 </footer>
 
-<div class="callbar" aria-label="Quick actions">
+<div class="callbar" aria-label="Quick actions" data-i18n-aria="aria.quickActions">
   <a class="callbar__action callbar__action--primary" href="tel:+17693003032">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.2 3.5h3.1l1.6 4-2 1.3a12 12 0 0 0 5.3 5.3l1.3-2 4 1.6v3.1a1.6 1.6 0 0 1-1.8 1.6A16.4 16.4 0 0 1 4.6 5.3 1.6 1.6 0 0 1 6.2 3.5z"></path></svg>
     <span data-i18n="shared.callbar.call">Call</span>
