@@ -21,6 +21,7 @@
     'shared.delivery.title': { en: 'Delivery Is Coming Soon', es: 'Entrega a Domicilio Muy Pronto' },
     'shared.delivery.copy': { en: 'DoorDash and Uber Eats ordering links will appear here when delivery opens.', es: 'Los enlaces para ordenar por DoorDash y Uber Eats aparecer&aacute;n aqu&iacute; cuando comience el servicio a domicilio.' },
     'shared.delivery.comingSoon': { en: 'Coming soon', es: 'Muy pronto' },
+    'shared.delivery.servicesAria': { en: 'Delivery services coming soon', es: 'Servicios de entrega muy pronto' },
     'shared.footer.owned': { en: 'Family-owned &middot; Opened March 7, 2026', es: 'Negocio familiar &middot; Abrimos el 7 de marzo de 2026' },
     'shared.footer.chef': { en: 'Miguel Martinez, Executive Chef', es: 'Miguel Martinez, Chef Ejecutivo' },
     'shared.footer.instagram': { en: 'Instagram', es: 'Instagram' },
