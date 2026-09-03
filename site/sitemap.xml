@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/dinner</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/dinner"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/dinner"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/dinner"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/dinner</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/dinner"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/dinner"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/dinner"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/dishes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/dishes"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/dishes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/dishes"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/dishes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/dishes"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/dishes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/dishes"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/lunch</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/lunch"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/lunch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/lunch"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/lunch</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/lunch"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/lunch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/lunch"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/story</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/story"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/story"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/story"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/story</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/story"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/story"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/story"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/visit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/visit"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/visit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/visit"/>
+  </url>
+  <url>
+    <loc>https://miguels-restaurante.netlify.app/es/visit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguels-restaurante.netlify.app/visit"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguels-restaurante.netlify.app/es/visit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://miguels-restaurante.netlify.app/visit"/>
+  </url>
+</urlset>
