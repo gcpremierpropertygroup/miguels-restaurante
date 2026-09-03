@@ -170,10 +170,55 @@
     'visit.gallery.room.note': { en: 'A room that fills up most nights.', es: 'Un sal&oacute;n que se llena casi todas las noches.' },
     'visit.gallery.banquetService.name': { en: 'The private room', es: 'El sal&oacute;n privado' },
     'visit.gallery.banquetService.note': { en: 'Book it for your next celebration.', es: 'Res&eacute;rvalo para tu pr&oacute;xima celebraci&oacute;n.' },
+
+    /* ---------- reservation dialog ----------
+       These are read two ways: applyLang writes them with innerHTML, and
+       reserve.js reads some through t() to set textContent. Real accented
+       characters are used rather than HTML entities so both paths work. */
+    'reserve.title': { en: 'Reserve a Table', es: 'Reservar una Mesa' },
+    'reserve.date': { en: 'Date', es: 'Fecha' },
+    'reserve.time': { en: 'Time', es: 'Hora' },
+    'reserve.party': { en: 'Party size', es: 'Número de personas' },
+    'reserve.partyNote': { en: 'Parties of 9+, please call us.', es: 'Para grupos de 9 o más, llámanos.' },
+    'reserve.name': { en: 'Name', es: 'Nombre' },
+    'reserve.phone': { en: 'Phone', es: 'Teléfono' },
+    'reserve.notes': { en: 'Notes', es: 'Notas' },
+    'reserve.notesOptional': { en: '(optional)', es: '(opcional)' },
+    'reserve.notesPlaceholder': { en: 'Allergies, special occasion, seating preference…', es: 'Alergias, ocasión especial, preferencia de mesa…' },
+    'reserve.submit': { en: 'Request Reservation', es: 'Solicitar Reservación' },
+    'reserve.confirmTitle': { en: 'One Last Step', es: 'Último Paso' },
+    'reserve.confirmBody': { en: 'This hasn\u2019t reached us yet \u2014 send it below, or call us. We\u2019ll ring you back to confirm; the table isn\u2019t held until we do.', es: 'Esto todavía no nos ha llegado \u2014 envíalo abajo, o llámanos. Te llamaremos para confirmar; la mesa no queda apartada hasta entonces.' },
+    'reserve.send': { en: 'Send This Request', es: 'Enviar esta Solicitud' },
+    'reserve.close': { en: 'Close', es: 'Cerrar' },
+    'reserve.prevMonth': { en: 'Previous month', es: 'Mes anterior' },
+    'reserve.nextMonth': { en: 'Next month', es: 'Mes siguiente' },
+    'reserve.fewer': { en: 'Fewer guests', es: 'Menos personas' },
+    'reserve.more': { en: 'More guests', es: 'Más personas' },
+    'reserve.errDate': { en: 'Pick a date.', es: 'Elige una fecha.' },
+    'reserve.errTime': { en: 'Pick a time.', es: 'Elige una hora.' },
+    'reserve.errName': { en: 'Enter your name.', es: 'Escribe tu nombre.' },
+    'reserve.errPhone': { en: 'Enter a phone number.', es: 'Escribe un teléfono.' },
+    'reserve.orCall': { en: 'Or Call', es: 'O llámanos al' },
+    'reserve.summaryAt': { en: 'at', es: 'a las' },
+    'reserve.summaryParty': { en: 'party of {n}', es: '{n} personas' },
   };
 
   function currentLang() {
     return localStorage.getItem(STORAGE_KEY) || 'en';
+  }
+
+  function t(key, lang) {
+    var entry = DICT[key];
+    if (!entry) return '';
+    var text = entry[lang || currentLang()];
+    return text === undefined ? '' : text;
+  }
+
+  function translateAttr(lang, dataAttr, targetAttr) {
+    document.querySelectorAll('[' + dataAttr + ']').forEach(function (el) {
+      var text = t(el.getAttribute(dataAttr), lang);
+      if (text) el.setAttribute(targetAttr, text);
+    });
   }
 
   function applyLang(lang) {
@@ -184,6 +229,10 @@
       var text = entry[lang];
       if (text !== undefined) el.innerHTML = text;
     });
+    /* Attribute variants. The reservation dialog needs translated aria-labels
+       and a placeholder, neither of which innerHTML can reach. */
+    translateAttr(lang, 'data-i18n-aria', 'aria-label');
+    translateAttr(lang, 'data-i18n-placeholder', 'placeholder');
     document.querySelectorAll('[data-lang-toggle]').forEach(function (btn) {
       btn.textContent = lang === 'en' ? 'ES' : 'EN';
       btn.setAttribute('aria-label', lang === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés');
@@ -195,6 +244,10 @@
     localStorage.setItem(STORAGE_KEY, next);
     applyLang(next);
   }
+
+  /* Public surface. reserve.js builds its dialog long after applyLang has
+     run, so it needs to look up strings and re-apply translations itself. */
+  window.MiguelsI18n = { lang: currentLang, t: t, apply: applyLang };
 
   applyLang(currentLang());
 
